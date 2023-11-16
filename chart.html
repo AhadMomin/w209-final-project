@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Altair Chart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        chart {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+        /* Add your custom styles here */
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-bottom: 10px; /* Added spacing between buttons */
+        }
+        
+        .btn.cart {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .btn.relation {
+            background-color: #27ae60;
+            color: #fff;
+        }
+
+        .btn.delivery {
+            background-color: #f39c12;
+            color: #fff;
+        }
+
+        /* Additional styles for the top menu */
+        .top-menu {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-bottom: 20px; /* Added spacing below the top menu */
+        }
+
+        .menu-item {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #fff;
+            display: inline-block; /* Display menu items inline */
+            position: relative;
+        }
+
+        .menu-item a {
+            color: #fff; /* Set text color for menu items */
+            text-decoration: none;
+        }
+
+        /* Display submenu on click */
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            padding: 10px;
+            list-style: none;
+            z-index: 1;
+            width: 200px; /* Set submenu width */
+        }
+
+        .submenu-item {
+            margin: 5px 0;
+        }
+
+        /* Set submenu link color */
+        .submenu-item a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to handle submenu display and hide
+            const menuItems = document.querySelectorAll('.menu-item');
+
+            menuItems.forEach(item => {
+                item.addEventListener('click', function(event) {
+                    const submenu = this.querySelector('.submenu');
+
+                    // Hide all submenus initially
+                    document.querySelectorAll('.submenu').forEach(sub => {
+                        if (sub !== submenu) {
+                            sub.style.display = 'none';
+                        }
+                    });
+
+                    // Toggle submenu display
+                    if (submenu) {
+                        submenu.style.display = (submenu.style.display === 'block') ? 'none' : 'block';
+                    }
+                });
+            });
+
+            // Hide submenu if clicked elsewhere
+            document.addEventListener('click', function(event) {
+                if (!event.target.classList.contains('menu-item') && !event.target.classList.contains('submenu-item')) {
+                    document.querySelectorAll('.submenu').forEach(submenu => {
+                        submenu.style.display = 'none';
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="top-menu">
+        <h1>Ecommerce KPI Analysis Report</h1> <!-- Added title -->
+        <!-- Top Menu / Navigation Bar -->
+        <a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209" class="menu-item"><i class="fas fa-home"></i> Home</a>
+        <div class="menu-item">
+            <a href="#" class="menu-item"><i class="fas fa-shopping-cart"></i> Sales and Market Trends</a>
+            <ul class="submenu">
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-sales-1">Page 1</a></li>
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-sales-2">Page 2</a></li>
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-sales-3">Page 3</a></li>
+            </ul>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="menu-item"><i class="fas fa-handshake"></i> Customer Relation</a>
+            <ul class="submenu">
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-customers-1">Page 1</a></li>
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-customers-2">Page 2</a></li>
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-customers-3">Page 3</a></li>
+            </ul>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="menu-item"><i class="fas fa-truck"></i> On-Time Delivery</a>
+            <ul class="submenu">
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-delivery-1">Page 1</a></li>
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-delivery-2">Page 2</a></li>
+                <li class="submenu-item"><a href="https://apps-fall.ischool.berkeley.edu/~casey.hahn/w209/chart-delivery-3">Page 3</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="chart"></div>
+
+    <script type="text/javascript">
+        const chartJson = {{ chart_json | safe }};
+        vegaEmbed('#chart', chartJson);
+    </script>
+</body>
+</html>
