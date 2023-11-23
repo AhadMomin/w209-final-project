@@ -1,0 +1,992 @@
+,year_month,Product_Name_top5_per_department_others,Department Name,Order Item Quantity,year
+0,2015-01,Columbia Men's PFG Anchor Tough T-Shirt,Golf,32,2015
+1,2015-01,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,415,2015
+2,2015-01,ENO Atlas Hammock Straps,Fan Shop,48,2015
+3,2015-01,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,542,2015
+4,2015-01,Glove It Imperial Golf Towel,Outdoors,31,2015
+5,2015-01,Glove It Women's Imperial Golf Glove,Outdoors,27,2015
+6,2015-01,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,60,2015
+7,2015-01,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,42,2015
+8,2015-01,Nike Dri-FIT Crew Sock 6 Pack,Fitness,32,2015
+9,2015-01,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,620,2015
+10,2015-01,Nike Men's Comfort 2 Slide,Fitness,44,2015
+11,2015-01,Nike Men's Deutschland Weltmeister Winners Bl,Golf,28,2015
+12,2015-01,Nike Men's Dri-FIT Victory Golf Polo,Golf,1857,2015
+13,2015-01,Nike Men's Free 5.0+ Running Shoe,Footwear,1138,2015
+14,2015-01,Nike Women's Legend V-Neck T-Shirt,Fitness,44,2015
+15,2015-01,Nike Women's Tempo Shorts,Footwear,50,2015
+16,2015-01,O'Brien Men's Neoprene Life Vest,Fan Shop,1892,2015
+17,2015-01,Other,Fitness,18,2015
+18,2015-01,Other,Footwear,84,2015
+19,2015-01,Other,Golf,47,2015
+20,2015-01,Other,Outdoors,653,2015
+21,2015-01,Pelican Sunstream 100 Kayak,Fan Shop,471,2015
+22,2015-01,Perfect Fitness Perfect Rip Deck,Apparel,2390,2015
+23,2015-01,Team Golf St. Louis Cardinals Putter Grip,Outdoors,31,2015
+24,2015-01,Under Armour Girls' Toddler Spine Surge Runni,Golf,1036,2015
+25,2015-01,Under Armour Men's Tech II T-Shirt,Fitness,31,2015
+26,2015-01,Under Armour Women's Ignite PIP VI Slide,Footwear,33,2015
+27,2015-01,Under Armour Women's Ignite Slide,Footwear,37,2015
+28,2015-01,Under Armour Women's Micro G Skulpt Running S,Footwear,24,2015
+29,2015-01,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,50,2015
+30,2015-01,adidas Youth Germany Black/Red Away Match Soc,Golf,47,2015
+31,2015-02,Columbia Men's PFG Anchor Tough T-Shirt,Golf,19,2015
+32,2015-02,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,392,2015
+33,2015-02,ENO Atlas Hammock Straps,Fan Shop,39,2015
+34,2015-02,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,442,2015
+35,2015-02,Glove It Imperial Golf Towel,Outdoors,28,2015
+36,2015-02,Glove It Women's Imperial Golf Glove,Outdoors,38,2015
+37,2015-02,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,26,2015
+38,2015-02,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,46,2015
+39,2015-02,Nike Dri-FIT Crew Sock 6 Pack,Fitness,61,2015
+40,2015-02,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,642,2015
+41,2015-02,Nike Men's Comfort 2 Slide,Fitness,28,2015
+42,2015-02,Nike Men's Deutschland Weltmeister Winners Bl,Golf,23,2015
+43,2015-02,Nike Men's Dri-FIT Victory Golf Polo,Golf,1807,2015
+44,2015-02,Nike Men's Free 5.0+ Running Shoe,Footwear,946,2015
+45,2015-02,Nike Women's Legend V-Neck T-Shirt,Fitness,9,2015
+46,2015-02,Nike Women's Tempo Shorts,Footwear,32,2015
+47,2015-02,O'Brien Men's Neoprene Life Vest,Fan Shop,1589,2015
+48,2015-02,Other,Fitness,20,2015
+49,2015-02,Other,Footwear,73,2015
+50,2015-02,Other,Golf,89,2015
+51,2015-02,Other,Outdoors,565,2015
+52,2015-02,Pelican Sunstream 100 Kayak,Fan Shop,433,2015
+53,2015-02,Perfect Fitness Perfect Rip Deck,Apparel,2005,2015
+54,2015-02,Team Golf St. Louis Cardinals Putter Grip,Outdoors,23,2015
+55,2015-02,Under Armour Girls' Toddler Spine Surge Runni,Golf,918,2015
+56,2015-02,Under Armour Men's Tech II T-Shirt,Fitness,20,2015
+57,2015-02,Under Armour Women's Ignite PIP VI Slide,Footwear,33,2015
+58,2015-02,Under Armour Women's Ignite Slide,Footwear,24,2015
+59,2015-02,Under Armour Women's Micro G Skulpt Running S,Footwear,9,2015
+60,2015-02,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,27,2015
+61,2015-02,adidas Youth Germany Black/Red Away Match Soc,Golf,32,2015
+62,2015-03,Columbia Men's PFG Anchor Tough T-Shirt,Golf,29,2015
+63,2015-03,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,405,2015
+64,2015-03,ENO Atlas Hammock Straps,Fan Shop,34,2015
+65,2015-03,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,525,2015
+66,2015-03,Glove It Imperial Golf Towel,Outdoors,52,2015
+67,2015-03,Glove It Women's Imperial Golf Glove,Outdoors,53,2015
+68,2015-03,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,47,2015
+69,2015-03,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,42,2015
+70,2015-03,Nike Dri-FIT Crew Sock 6 Pack,Fitness,20,2015
+71,2015-03,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,618,2015
+72,2015-03,Nike Men's Comfort 2 Slide,Fitness,47,2015
+73,2015-03,Nike Men's Deutschland Weltmeister Winners Bl,Golf,30,2015
+74,2015-03,Nike Men's Dri-FIT Victory Golf Polo,Golf,2004,2015
+75,2015-03,Nike Men's Free 5.0+ Running Shoe,Footwear,1120,2015
+76,2015-03,Nike Women's Legend V-Neck T-Shirt,Fitness,27,2015
+77,2015-03,Nike Women's Tempo Shorts,Footwear,25,2015
+78,2015-03,O'Brien Men's Neoprene Life Vest,Fan Shop,1925,2015
+79,2015-03,Other,Fitness,13,2015
+80,2015-03,Other,Footwear,98,2015
+81,2015-03,Other,Golf,79,2015
+82,2015-03,Other,Outdoors,692,2015
+83,2015-03,Pelican Sunstream 100 Kayak,Fan Shop,480,2015
+84,2015-03,Perfect Fitness Perfect Rip Deck,Apparel,2355,2015
+85,2015-03,Team Golf St. Louis Cardinals Putter Grip,Outdoors,19,2015
+86,2015-03,Under Armour Girls' Toddler Spine Surge Runni,Golf,1094,2015
+87,2015-03,Under Armour Men's Tech II T-Shirt,Fitness,30,2015
+88,2015-03,Under Armour Women's Ignite PIP VI Slide,Footwear,28,2015
+89,2015-03,Under Armour Women's Ignite Slide,Footwear,42,2015
+90,2015-03,Under Armour Women's Micro G Skulpt Running S,Footwear,37,2015
+91,2015-03,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,53,2015
+92,2015-03,adidas Youth Germany Black/Red Away Match Soc,Golf,39,2015
+93,2015-04,Columbia Men's PFG Anchor Tough T-Shirt,Golf,41,2015
+94,2015-04,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,417,2015
+95,2015-04,ENO Atlas Hammock Straps,Fan Shop,24,2015
+96,2015-04,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,523,2015
+97,2015-04,Glove It Imperial Golf Towel,Outdoors,31,2015
+98,2015-04,Glove It Women's Imperial Golf Glove,Outdoors,45,2015
+99,2015-04,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,32,2015
+100,2015-04,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,13,2015
+101,2015-04,Nike Dri-FIT Crew Sock 6 Pack,Fitness,20,2015
+102,2015-04,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,653,2015
+103,2015-04,Nike Men's Comfort 2 Slide,Fitness,24,2015
+104,2015-04,Nike Men's Deutschland Weltmeister Winners Bl,Golf,18,2015
+105,2015-04,Nike Men's Dri-FIT Victory Golf Polo,Golf,1938,2015
+106,2015-04,Nike Men's Free 5.0+ Running Shoe,Footwear,1021,2015
+107,2015-04,Nike Women's Legend V-Neck T-Shirt,Fitness,29,2015
+108,2015-04,Nike Women's Tempo Shorts,Footwear,41,2015
+109,2015-04,O'Brien Men's Neoprene Life Vest,Fan Shop,1765,2015
+110,2015-04,Other,Fitness,32,2015
+111,2015-04,Other,Footwear,117,2015
+112,2015-04,Other,Golf,83,2015
+113,2015-04,Other,Outdoors,623,2015
+114,2015-04,Pelican Sunstream 100 Kayak,Fan Shop,489,2015
+115,2015-04,Perfect Fitness Perfect Rip Deck,Apparel,2187,2015
+116,2015-04,Team Golf St. Louis Cardinals Putter Grip,Outdoors,28,2015
+117,2015-04,Under Armour Girls' Toddler Spine Surge Runni,Golf,905,2015
+118,2015-04,Under Armour Men's Tech II T-Shirt,Fitness,24,2015
+119,2015-04,Under Armour Women's Ignite PIP VI Slide,Footwear,27,2015
+120,2015-04,Under Armour Women's Ignite Slide,Footwear,24,2015
+121,2015-04,Under Armour Women's Micro G Skulpt Running S,Footwear,39,2015
+122,2015-04,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,34,2015
+123,2015-04,adidas Youth Germany Black/Red Away Match Soc,Golf,40,2015
+124,2015-05,Columbia Men's PFG Anchor Tough T-Shirt,Golf,31,2015
+125,2015-05,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,392,2015
+126,2015-05,ENO Atlas Hammock Straps,Fan Shop,29,2015
+127,2015-05,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,516,2015
+128,2015-05,Glove It Imperial Golf Towel,Outdoors,24,2015
+129,2015-05,Glove It Women's Imperial Golf Glove,Outdoors,50,2015
+130,2015-05,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,39,2015
+131,2015-05,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,50,2015
+132,2015-05,Nike Dri-FIT Crew Sock 6 Pack,Fitness,41,2015
+133,2015-05,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,644,2015
+134,2015-05,Nike Men's Comfort 2 Slide,Fitness,20,2015
+135,2015-05,Nike Men's Deutschland Weltmeister Winners Bl,Golf,48,2015
+136,2015-05,Nike Men's Dri-FIT Victory Golf Polo,Golf,1926,2015
+137,2015-05,Nike Men's Free 5.0+ Running Shoe,Footwear,1371,2015
+138,2015-05,Nike Women's Legend V-Neck T-Shirt,Fitness,43,2015
+139,2015-05,Nike Women's Tempo Shorts,Footwear,40,2015
+140,2015-05,O'Brien Men's Neoprene Life Vest,Fan Shop,1712,2015
+141,2015-05,Other,Fitness,25,2015
+142,2015-05,Other,Footwear,113,2015
+143,2015-05,Other,Golf,58,2015
+144,2015-05,Other,Outdoors,783,2015
+145,2015-05,Pelican Sunstream 100 Kayak,Fan Shop,495,2015
+146,2015-05,Perfect Fitness Perfect Rip Deck,Apparel,2220,2015
+147,2015-05,Team Golf St. Louis Cardinals Putter Grip,Outdoors,44,2015
+148,2015-05,Under Armour Girls' Toddler Spine Surge Runni,Golf,1004,2015
+149,2015-05,Under Armour Men's Tech II T-Shirt,Fitness,48,2015
+150,2015-05,Under Armour Women's Ignite PIP VI Slide,Footwear,12,2015
+151,2015-05,Under Armour Women's Ignite Slide,Footwear,28,2015
+152,2015-05,Under Armour Women's Micro G Skulpt Running S,Footwear,34,2015
+153,2015-05,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,32,2015
+154,2015-05,adidas Youth Germany Black/Red Away Match Soc,Golf,30,2015
+155,2015-06,Columbia Men's PFG Anchor Tough T-Shirt,Golf,21,2015
+156,2015-06,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,411,2015
+157,2015-06,ENO Atlas Hammock Straps,Fan Shop,26,2015
+158,2015-06,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,538,2015
+159,2015-06,Glove It Imperial Golf Towel,Outdoors,18,2015
+160,2015-06,Glove It Women's Imperial Golf Glove,Outdoors,26,2015
+161,2015-06,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,42,2015
+162,2015-06,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,48,2015
+163,2015-06,Nike Dri-FIT Crew Sock 6 Pack,Fitness,39,2015
+164,2015-06,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,666,2015
+165,2015-06,Nike Men's Comfort 2 Slide,Fitness,26,2015
+166,2015-06,Nike Men's Deutschland Weltmeister Winners Bl,Golf,30,2015
+167,2015-06,Nike Men's Dri-FIT Victory Golf Polo,Golf,1742,2015
+168,2015-06,Nike Men's Free 5.0+ Running Shoe,Footwear,1238,2015
+169,2015-06,Nike Women's Legend V-Neck T-Shirt,Fitness,29,2015
+170,2015-06,Nike Women's Tempo Shorts,Footwear,33,2015
+171,2015-06,O'Brien Men's Neoprene Life Vest,Fan Shop,1701,2015
+172,2015-06,Other,Fitness,16,2015
+173,2015-06,Other,Footwear,121,2015
+174,2015-06,Other,Golf,79,2015
+175,2015-06,Other,Outdoors,623,2015
+176,2015-06,Pelican Sunstream 100 Kayak,Fan Shop,460,2015
+177,2015-06,Perfect Fitness Perfect Rip Deck,Apparel,2142,2015
+178,2015-06,Team Golf St. Louis Cardinals Putter Grip,Outdoors,34,2015
+179,2015-06,Under Armour Girls' Toddler Spine Surge Runni,Golf,931,2015
+180,2015-06,Under Armour Men's Tech II T-Shirt,Fitness,19,2015
+181,2015-06,Under Armour Women's Ignite PIP VI Slide,Footwear,30,2015
+182,2015-06,Under Armour Women's Ignite Slide,Footwear,18,2015
+183,2015-06,Under Armour Women's Micro G Skulpt Running S,Footwear,22,2015
+184,2015-06,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,33,2015
+185,2015-06,adidas Youth Germany Black/Red Away Match Soc,Golf,41,2015
+186,2015-07,Columbia Men's PFG Anchor Tough T-Shirt,Golf,20,2015
+187,2015-07,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,412,2015
+188,2015-07,ENO Atlas Hammock Straps,Fan Shop,38,2015
+189,2015-07,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,515,2015
+190,2015-07,Glove It Imperial Golf Towel,Outdoors,40,2015
+191,2015-07,Glove It Women's Imperial Golf Glove,Outdoors,30,2015
+192,2015-07,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,26,2015
+193,2015-07,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,36,2015
+194,2015-07,Nike Dri-FIT Crew Sock 6 Pack,Fitness,18,2015
+195,2015-07,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,664,2015
+196,2015-07,Nike Men's Comfort 2 Slide,Fitness,48,2015
+197,2015-07,Nike Men's Deutschland Weltmeister Winners Bl,Golf,44,2015
+198,2015-07,Nike Men's Dri-FIT Victory Golf Polo,Golf,2163,2015
+199,2015-07,Nike Men's Free 5.0+ Running Shoe,Footwear,1073,2015
+200,2015-07,Nike Women's Legend V-Neck T-Shirt,Fitness,33,2015
+201,2015-07,Nike Women's Tempo Shorts,Footwear,37,2015
+202,2015-07,O'Brien Men's Neoprene Life Vest,Fan Shop,1835,2015
+203,2015-07,Other,Fitness,30,2015
+204,2015-07,Other,Footwear,97,2015
+205,2015-07,Other,Golf,65,2015
+206,2015-07,Other,Outdoors,650,2015
+207,2015-07,Pelican Sunstream 100 Kayak,Fan Shop,472,2015
+208,2015-07,Perfect Fitness Perfect Rip Deck,Apparel,2274,2015
+209,2015-07,Team Golf St. Louis Cardinals Putter Grip,Outdoors,33,2015
+210,2015-07,Under Armour Girls' Toddler Spine Surge Runni,Golf,958,2015
+211,2015-07,Under Armour Men's Tech II T-Shirt,Fitness,36,2015
+212,2015-07,Under Armour Women's Ignite PIP VI Slide,Footwear,46,2015
+213,2015-07,Under Armour Women's Ignite Slide,Footwear,30,2015
+214,2015-07,Under Armour Women's Micro G Skulpt Running S,Footwear,13,2015
+215,2015-07,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,40,2015
+216,2015-07,adidas Youth Germany Black/Red Away Match Soc,Golf,24,2015
+217,2015-08,Columbia Men's PFG Anchor Tough T-Shirt,Golf,66,2015
+218,2015-08,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,407,2015
+219,2015-08,ENO Atlas Hammock Straps,Fan Shop,61,2015
+220,2015-08,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,509,2015
+221,2015-08,Glove It Imperial Golf Towel,Outdoors,44,2015
+222,2015-08,Glove It Women's Imperial Golf Glove,Outdoors,45,2015
+223,2015-08,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,26,2015
+224,2015-08,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,35,2015
+225,2015-08,Nike Dri-FIT Crew Sock 6 Pack,Fitness,51,2015
+226,2015-08,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,688,2015
+227,2015-08,Nike Men's Comfort 2 Slide,Fitness,41,2015
+228,2015-08,Nike Men's Deutschland Weltmeister Winners Bl,Golf,18,2015
+229,2015-08,Nike Men's Dri-FIT Victory Golf Polo,Golf,1920,2015
+230,2015-08,Nike Men's Free 5.0+ Running Shoe,Footwear,1117,2015
+231,2015-08,Nike Women's Legend V-Neck T-Shirt,Fitness,33,2015
+232,2015-08,Nike Women's Tempo Shorts,Footwear,31,2015
+233,2015-08,O'Brien Men's Neoprene Life Vest,Fan Shop,1566,2015
+234,2015-08,Other,Fitness,20,2015
+235,2015-08,Other,Footwear,85,2015
+236,2015-08,Other,Golf,90,2015
+237,2015-08,Other,Outdoors,686,2015
+238,2015-08,Pelican Sunstream 100 Kayak,Fan Shop,488,2015
+239,2015-08,Perfect Fitness Perfect Rip Deck,Apparel,2411,2015
+240,2015-08,Team Golf St. Louis Cardinals Putter Grip,Outdoors,18,2015
+241,2015-08,Under Armour Girls' Toddler Spine Surge Runni,Golf,955,2015
+242,2015-08,Under Armour Men's Tech II T-Shirt,Fitness,39,2015
+243,2015-08,Under Armour Women's Ignite PIP VI Slide,Footwear,39,2015
+244,2015-08,Under Armour Women's Ignite Slide,Footwear,59,2015
+245,2015-08,Under Armour Women's Micro G Skulpt Running S,Footwear,22,2015
+246,2015-08,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,21,2015
+247,2015-08,adidas Youth Germany Black/Red Away Match Soc,Golf,21,2015
+248,2015-09,Columbia Men's PFG Anchor Tough T-Shirt,Golf,34,2015
+249,2015-09,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,436,2015
+250,2015-09,ENO Atlas Hammock Straps,Fan Shop,37,2015
+251,2015-09,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,508,2015
+252,2015-09,Glove It Imperial Golf Towel,Outdoors,18,2015
+253,2015-09,Glove It Women's Imperial Golf Glove,Outdoors,38,2015
+254,2015-09,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,12,2015
+255,2015-09,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,31,2015
+256,2015-09,Nike Dri-FIT Crew Sock 6 Pack,Fitness,29,2015
+257,2015-09,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,678,2015
+258,2015-09,Nike Men's Comfort 2 Slide,Fitness,38,2015
+259,2015-09,Nike Men's Deutschland Weltmeister Winners Bl,Golf,27,2015
+260,2015-09,Nike Men's Dri-FIT Victory Golf Polo,Golf,1875,2015
+261,2015-09,Nike Men's Free 5.0+ Running Shoe,Footwear,1104,2015
+262,2015-09,Nike Women's Legend V-Neck T-Shirt,Fitness,32,2015
+263,2015-09,Nike Women's Tempo Shorts,Footwear,40,2015
+264,2015-09,O'Brien Men's Neoprene Life Vest,Fan Shop,1793,2015
+265,2015-09,Other,Fitness,35,2015
+266,2015-09,Other,Footwear,84,2015
+267,2015-09,Other,Golf,53,2015
+268,2015-09,Other,Outdoors,622,2015
+269,2015-09,Pelican Sunstream 100 Kayak,Fan Shop,436,2015
+270,2015-09,Perfect Fitness Perfect Rip Deck,Apparel,2177,2015
+271,2015-09,Team Golf St. Louis Cardinals Putter Grip,Outdoors,38,2015
+272,2015-09,Under Armour Girls' Toddler Spine Surge Runni,Golf,1000,2015
+273,2015-09,Under Armour Men's Tech II T-Shirt,Fitness,19,2015
+274,2015-09,Under Armour Women's Ignite PIP VI Slide,Footwear,44,2015
+275,2015-09,Under Armour Women's Ignite Slide,Footwear,22,2015
+276,2015-09,Under Armour Women's Micro G Skulpt Running S,Footwear,31,2015
+277,2015-09,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,40,2015
+278,2015-09,adidas Youth Germany Black/Red Away Match Soc,Golf,35,2015
+279,2015-10,Columbia Men's PFG Anchor Tough T-Shirt,Golf,36,2015
+280,2015-10,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,428,2015
+281,2015-10,ENO Atlas Hammock Straps,Fan Shop,22,2015
+282,2015-10,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,524,2015
+283,2015-10,Glove It Imperial Golf Towel,Outdoors,51,2015
+284,2015-10,Glove It Women's Imperial Golf Glove,Outdoors,14,2015
+285,2015-10,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,23,2015
+286,2015-10,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,32,2015
+287,2015-10,Nike Dri-FIT Crew Sock 6 Pack,Fitness,34,2015
+288,2015-10,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,677,2015
+289,2015-10,Nike Men's Comfort 2 Slide,Fitness,26,2015
+290,2015-10,Nike Men's Deutschland Weltmeister Winners Bl,Golf,30,2015
+291,2015-10,Nike Men's Dri-FIT Victory Golf Polo,Golf,1962,2015
+292,2015-10,Nike Men's Free 5.0+ Running Shoe,Footwear,1235,2015
+293,2015-10,Nike Women's Legend V-Neck T-Shirt,Fitness,32,2015
+294,2015-10,Nike Women's Tempo Shorts,Footwear,39,2015
+295,2015-10,O'Brien Men's Neoprene Life Vest,Fan Shop,1803,2015
+296,2015-10,Other,Fitness,8,2015
+297,2015-10,Other,Footwear,96,2015
+298,2015-10,Other,Golf,88,2015
+299,2015-10,Other,Outdoors,702,2015
+300,2015-10,Pelican Sunstream 100 Kayak,Fan Shop,484,2015
+301,2015-10,Perfect Fitness Perfect Rip Deck,Apparel,2171,2015
+302,2015-10,Team Golf St. Louis Cardinals Putter Grip,Outdoors,32,2015
+303,2015-10,Under Armour Girls' Toddler Spine Surge Runni,Golf,950,2015
+304,2015-10,Under Armour Men's Tech II T-Shirt,Fitness,38,2015
+305,2015-10,Under Armour Women's Ignite PIP VI Slide,Footwear,40,2015
+306,2015-10,Under Armour Women's Ignite Slide,Footwear,16,2015
+307,2015-10,Under Armour Women's Micro G Skulpt Running S,Footwear,34,2015
+308,2015-10,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,31,2015
+309,2015-10,adidas Youth Germany Black/Red Away Match Soc,Golf,45,2015
+310,2015-11,Columbia Men's PFG Anchor Tough T-Shirt,Golf,36,2015
+311,2015-11,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,430,2015
+312,2015-11,ENO Atlas Hammock Straps,Fan Shop,46,2015
+313,2015-11,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,539,2015
+314,2015-11,Glove It Imperial Golf Towel,Outdoors,43,2015
+315,2015-11,Glove It Women's Imperial Golf Glove,Outdoors,31,2015
+316,2015-11,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,34,2015
+317,2015-11,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,29,2015
+318,2015-11,Nike Dri-FIT Crew Sock 6 Pack,Fitness,32,2015
+319,2015-11,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,661,2015
+320,2015-11,Nike Men's Comfort 2 Slide,Fitness,37,2015
+321,2015-11,Nike Men's Deutschland Weltmeister Winners Bl,Golf,41,2015
+322,2015-11,Nike Men's Dri-FIT Victory Golf Polo,Golf,1773,2015
+323,2015-11,Nike Men's Free 5.0+ Running Shoe,Footwear,1075,2015
+324,2015-11,Nike Women's Legend V-Neck T-Shirt,Fitness,24,2015
+325,2015-11,Nike Women's Tempo Shorts,Footwear,14,2015
+326,2015-11,O'Brien Men's Neoprene Life Vest,Fan Shop,1789,2015
+327,2015-11,Other,Fitness,48,2015
+328,2015-11,Other,Footwear,91,2015
+329,2015-11,Other,Golf,36,2015
+330,2015-11,Other,Outdoors,763,2015
+331,2015-11,Pelican Sunstream 100 Kayak,Fan Shop,464,2015
+332,2015-11,Perfect Fitness Perfect Rip Deck,Apparel,2205,2015
+333,2015-11,Team Golf St. Louis Cardinals Putter Grip,Outdoors,33,2015
+334,2015-11,Under Armour Girls' Toddler Spine Surge Runni,Golf,1011,2015
+335,2015-11,Under Armour Men's Tech II T-Shirt,Fitness,15,2015
+336,2015-11,Under Armour Women's Ignite PIP VI Slide,Footwear,35,2015
+337,2015-11,Under Armour Women's Ignite Slide,Footwear,65,2015
+338,2015-11,Under Armour Women's Micro G Skulpt Running S,Footwear,26,2015
+339,2015-11,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,8,2015
+340,2015-11,adidas Youth Germany Black/Red Away Match Soc,Golf,29,2015
+341,2015-12,Columbia Men's PFG Anchor Tough T-Shirt,Golf,28,2015
+342,2015-12,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,389,2015
+343,2015-12,ENO Atlas Hammock Straps,Fan Shop,27,2015
+344,2015-12,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,560,2015
+345,2015-12,Glove It Imperial Golf Towel,Outdoors,30,2015
+346,2015-12,Glove It Women's Imperial Golf Glove,Outdoors,53,2015
+347,2015-12,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,17,2015
+348,2015-12,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,40,2015
+349,2015-12,Nike Dri-FIT Crew Sock 6 Pack,Fitness,40,2015
+350,2015-12,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,721,2015
+351,2015-12,Nike Men's Comfort 2 Slide,Fitness,36,2015
+352,2015-12,Nike Men's Deutschland Weltmeister Winners Bl,Golf,21,2015
+353,2015-12,Nike Men's Dri-FIT Victory Golf Polo,Golf,1873,2015
+354,2015-12,Nike Men's Free 5.0+ Running Shoe,Footwear,1138,2015
+355,2015-12,Nike Women's Legend V-Neck T-Shirt,Fitness,46,2015
+356,2015-12,Nike Women's Tempo Shorts,Footwear,24,2015
+357,2015-12,O'Brien Men's Neoprene Life Vest,Fan Shop,1856,2015
+358,2015-12,Other,Fitness,39,2015
+359,2015-12,Other,Footwear,108,2015
+360,2015-12,Other,Golf,59,2015
+361,2015-12,Other,Outdoors,689,2015
+362,2015-12,Pelican Sunstream 100 Kayak,Fan Shop,498,2015
+363,2015-12,Perfect Fitness Perfect Rip Deck,Apparel,2218,2015
+364,2015-12,Team Golf St. Louis Cardinals Putter Grip,Outdoors,42,2015
+365,2015-12,Under Armour Girls' Toddler Spine Surge Runni,Golf,999,2015
+366,2015-12,Under Armour Men's Tech II T-Shirt,Fitness,29,2015
+367,2015-12,Under Armour Women's Ignite PIP VI Slide,Footwear,24,2015
+368,2015-12,Under Armour Women's Ignite Slide,Footwear,60,2015
+369,2015-12,Under Armour Women's Micro G Skulpt Running S,Footwear,37,2015
+370,2015-12,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,37,2015
+371,2015-12,adidas Youth Germany Black/Red Away Match Soc,Golf,52,2015
+372,2016-01,Columbia Men's PFG Anchor Tough T-Shirt,Golf,13,2016
+373,2016-01,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,416,2016
+374,2016-01,ENO Atlas Hammock Straps,Fan Shop,31,2016
+375,2016-01,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,553,2016
+376,2016-01,Glove It Imperial Golf Towel,Outdoors,31,2016
+377,2016-01,Glove It Women's Imperial Golf Glove,Outdoors,42,2016
+378,2016-01,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,39,2016
+379,2016-01,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,18,2016
+380,2016-01,Nike Dri-FIT Crew Sock 6 Pack,Fitness,49,2016
+381,2016-01,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,683,2016
+382,2016-01,Nike Men's Comfort 2 Slide,Fitness,28,2016
+383,2016-01,Nike Men's Deutschland Weltmeister Winners Bl,Golf,25,2016
+384,2016-01,Nike Men's Dri-FIT Victory Golf Polo,Golf,2069,2016
+385,2016-01,Nike Men's Free 5.0+ Running Shoe,Footwear,1172,2016
+386,2016-01,Nike Women's Legend V-Neck T-Shirt,Fitness,31,2016
+387,2016-01,Nike Women's Tempo Shorts,Footwear,30,2016
+388,2016-01,O'Brien Men's Neoprene Life Vest,Fan Shop,1830,2016
+389,2016-01,Other,Fitness,25,2016
+390,2016-01,Other,Footwear,92,2016
+391,2016-01,Other,Golf,42,2016
+392,2016-01,Other,Outdoors,609,2016
+393,2016-01,Pelican Sunstream 100 Kayak,Fan Shop,454,2016
+394,2016-01,Perfect Fitness Perfect Rip Deck,Apparel,2188,2016
+395,2016-01,Team Golf St. Louis Cardinals Putter Grip,Outdoors,36,2016
+396,2016-01,Under Armour Girls' Toddler Spine Surge Runni,Golf,942,2016
+397,2016-01,Under Armour Men's Tech II T-Shirt,Fitness,18,2016
+398,2016-01,Under Armour Women's Ignite PIP VI Slide,Footwear,32,2016
+399,2016-01,Under Armour Women's Ignite Slide,Footwear,30,2016
+400,2016-01,Under Armour Women's Micro G Skulpt Running S,Footwear,29,2016
+401,2016-01,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,19,2016
+402,2016-01,adidas Youth Germany Black/Red Away Match Soc,Golf,21,2016
+403,2016-02,Columbia Men's PFG Anchor Tough T-Shirt,Golf,27,2016
+404,2016-02,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,383,2016
+405,2016-02,ENO Atlas Hammock Straps,Fan Shop,40,2016
+406,2016-02,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,518,2016
+407,2016-02,Glove It Imperial Golf Towel,Outdoors,35,2016
+408,2016-02,Glove It Women's Imperial Golf Glove,Outdoors,53,2016
+409,2016-02,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,20,2016
+410,2016-02,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,36,2016
+411,2016-02,Nike Dri-FIT Crew Sock 6 Pack,Fitness,25,2016
+412,2016-02,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,635,2016
+413,2016-02,Nike Men's Comfort 2 Slide,Fitness,27,2016
+414,2016-02,Nike Men's Deutschland Weltmeister Winners Bl,Golf,35,2016
+415,2016-02,Nike Men's Dri-FIT Victory Golf Polo,Golf,1715,2016
+416,2016-02,Nike Men's Free 5.0+ Running Shoe,Footwear,1007,2016
+417,2016-02,Nike Women's Legend V-Neck T-Shirt,Fitness,9,2016
+418,2016-02,Nike Women's Tempo Shorts,Footwear,37,2016
+419,2016-02,O'Brien Men's Neoprene Life Vest,Fan Shop,1780,2016
+420,2016-02,Other,Fitness,32,2016
+421,2016-02,Other,Footwear,85,2016
+422,2016-02,Other,Golf,68,2016
+423,2016-02,Other,Outdoors,610,2016
+424,2016-02,Pelican Sunstream 100 Kayak,Fan Shop,428,2016
+425,2016-02,Perfect Fitness Perfect Rip Deck,Apparel,2047,2016
+426,2016-02,Team Golf St. Louis Cardinals Putter Grip,Outdoors,37,2016
+427,2016-02,Under Armour Girls' Toddler Spine Surge Runni,Golf,866,2016
+428,2016-02,Under Armour Men's Tech II T-Shirt,Fitness,26,2016
+429,2016-02,Under Armour Women's Ignite PIP VI Slide,Footwear,26,2016
+430,2016-02,Under Armour Women's Ignite Slide,Footwear,36,2016
+431,2016-02,Under Armour Women's Micro G Skulpt Running S,Footwear,30,2016
+432,2016-02,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,36,2016
+433,2016-02,adidas Youth Germany Black/Red Away Match Soc,Golf,56,2016
+434,2016-03,Columbia Men's PFG Anchor Tough T-Shirt,Golf,37,2016
+435,2016-03,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,433,2016
+436,2016-03,ENO Atlas Hammock Straps,Fan Shop,32,2016
+437,2016-03,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,528,2016
+438,2016-03,Glove It Imperial Golf Towel,Outdoors,35,2016
+439,2016-03,Glove It Women's Imperial Golf Glove,Outdoors,22,2016
+440,2016-03,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,57,2016
+441,2016-03,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,24,2016
+442,2016-03,Nike Dri-FIT Crew Sock 6 Pack,Fitness,19,2016
+443,2016-03,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,675,2016
+444,2016-03,Nike Men's Comfort 2 Slide,Fitness,37,2016
+445,2016-03,Nike Men's Deutschland Weltmeister Winners Bl,Golf,72,2016
+446,2016-03,Nike Men's Dri-FIT Victory Golf Polo,Golf,1847,2016
+447,2016-03,Nike Men's Free 5.0+ Running Shoe,Footwear,1067,2016
+448,2016-03,Nike Women's Legend V-Neck T-Shirt,Fitness,35,2016
+449,2016-03,Nike Women's Tempo Shorts,Footwear,31,2016
+450,2016-03,O'Brien Men's Neoprene Life Vest,Fan Shop,1669,2016
+451,2016-03,Other,Fitness,24,2016
+452,2016-03,Other,Footwear,73,2016
+453,2016-03,Other,Golf,42,2016
+454,2016-03,Other,Outdoors,577,2016
+455,2016-03,Pelican Sunstream 100 Kayak,Fan Shop,453,2016
+456,2016-03,Perfect Fitness Perfect Rip Deck,Apparel,2401,2016
+457,2016-03,Team Golf St. Louis Cardinals Putter Grip,Outdoors,32,2016
+458,2016-03,Under Armour Girls' Toddler Spine Surge Runni,Golf,929,2016
+459,2016-03,Under Armour Men's Tech II T-Shirt,Fitness,35,2016
+460,2016-03,Under Armour Women's Ignite PIP VI Slide,Footwear,19,2016
+461,2016-03,Under Armour Women's Ignite Slide,Footwear,41,2016
+462,2016-03,Under Armour Women's Micro G Skulpt Running S,Footwear,20,2016
+463,2016-03,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,40,2016
+464,2016-03,adidas Youth Germany Black/Red Away Match Soc,Golf,43,2016
+465,2016-04,Columbia Men's PFG Anchor Tough T-Shirt,Golf,43,2016
+466,2016-04,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,384,2016
+467,2016-04,ENO Atlas Hammock Straps,Fan Shop,42,2016
+468,2016-04,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,527,2016
+469,2016-04,Glove It Imperial Golf Towel,Outdoors,41,2016
+470,2016-04,Glove It Women's Imperial Golf Glove,Outdoors,12,2016
+471,2016-04,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,39,2016
+472,2016-04,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,50,2016
+473,2016-04,Nike Dri-FIT Crew Sock 6 Pack,Fitness,15,2016
+474,2016-04,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,683,2016
+475,2016-04,Nike Men's Comfort 2 Slide,Fitness,65,2016
+476,2016-04,Nike Men's Deutschland Weltmeister Winners Bl,Golf,31,2016
+477,2016-04,Nike Men's Dri-FIT Victory Golf Polo,Golf,1797,2016
+478,2016-04,Nike Men's Free 5.0+ Running Shoe,Footwear,1098,2016
+479,2016-04,Nike Women's Legend V-Neck T-Shirt,Fitness,24,2016
+480,2016-04,Nike Women's Tempo Shorts,Footwear,18,2016
+481,2016-04,O'Brien Men's Neoprene Life Vest,Fan Shop,1648,2016
+482,2016-04,Other,Fitness,38,2016
+483,2016-04,Other,Footwear,80,2016
+484,2016-04,Other,Golf,71,2016
+485,2016-04,Other,Outdoors,625,2016
+486,2016-04,Pelican Sunstream 100 Kayak,Fan Shop,429,2016
+487,2016-04,Perfect Fitness Perfect Rip Deck,Apparel,2225,2016
+488,2016-04,Team Golf St. Louis Cardinals Putter Grip,Outdoors,50,2016
+489,2016-04,Under Armour Girls' Toddler Spine Surge Runni,Golf,1000,2016
+490,2016-04,Under Armour Men's Tech II T-Shirt,Fitness,39,2016
+491,2016-04,Under Armour Women's Ignite PIP VI Slide,Footwear,18,2016
+492,2016-04,Under Armour Women's Ignite Slide,Footwear,29,2016
+493,2016-04,Under Armour Women's Micro G Skulpt Running S,Footwear,14,2016
+494,2016-04,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,40,2016
+495,2016-04,adidas Youth Germany Black/Red Away Match Soc,Golf,33,2016
+496,2016-05,Columbia Men's PFG Anchor Tough T-Shirt,Golf,39,2016
+497,2016-05,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,426,2016
+498,2016-05,ENO Atlas Hammock Straps,Fan Shop,18,2016
+499,2016-05,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,502,2016
+500,2016-05,Glove It Imperial Golf Towel,Outdoors,31,2016
+501,2016-05,Glove It Women's Imperial Golf Glove,Outdoors,20,2016
+502,2016-05,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,25,2016
+503,2016-05,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,45,2016
+504,2016-05,Nike Dri-FIT Crew Sock 6 Pack,Fitness,40,2016
+505,2016-05,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,677,2016
+506,2016-05,Nike Men's Comfort 2 Slide,Fitness,30,2016
+507,2016-05,Nike Men's Deutschland Weltmeister Winners Bl,Golf,28,2016
+508,2016-05,Nike Men's Dri-FIT Victory Golf Polo,Golf,1923,2016
+509,2016-05,Nike Men's Free 5.0+ Running Shoe,Footwear,948,2016
+510,2016-05,Nike Women's Legend V-Neck T-Shirt,Fitness,24,2016
+511,2016-05,Nike Women's Tempo Shorts,Footwear,24,2016
+512,2016-05,O'Brien Men's Neoprene Life Vest,Fan Shop,1770,2016
+513,2016-05,Other,Fitness,24,2016
+514,2016-05,Other,Footwear,120,2016
+515,2016-05,Other,Golf,93,2016
+516,2016-05,Other,Outdoors,707,2016
+517,2016-05,Pelican Sunstream 100 Kayak,Fan Shop,516,2016
+518,2016-05,Perfect Fitness Perfect Rip Deck,Apparel,2432,2016
+519,2016-05,Team Golf St. Louis Cardinals Putter Grip,Outdoors,40,2016
+520,2016-05,Under Armour Girls' Toddler Spine Surge Runni,Golf,931,2016
+521,2016-05,Under Armour Men's Tech II T-Shirt,Fitness,21,2016
+522,2016-05,Under Armour Women's Ignite PIP VI Slide,Footwear,26,2016
+523,2016-05,Under Armour Women's Ignite Slide,Footwear,23,2016
+524,2016-05,Under Armour Women's Micro G Skulpt Running S,Footwear,37,2016
+525,2016-05,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,45,2016
+526,2016-05,adidas Youth Germany Black/Red Away Match Soc,Golf,18,2016
+527,2016-06,Columbia Men's PFG Anchor Tough T-Shirt,Golf,47,2016
+528,2016-06,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,421,2016
+529,2016-06,ENO Atlas Hammock Straps,Fan Shop,34,2016
+530,2016-06,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,546,2016
+531,2016-06,Glove It Imperial Golf Towel,Outdoors,11,2016
+532,2016-06,Glove It Women's Imperial Golf Glove,Outdoors,20,2016
+533,2016-06,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,33,2016
+534,2016-06,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,38,2016
+535,2016-06,Nike Dri-FIT Crew Sock 6 Pack,Fitness,34,2016
+536,2016-06,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,672,2016
+537,2016-06,Nike Men's Comfort 2 Slide,Fitness,38,2016
+538,2016-06,Nike Men's Deutschland Weltmeister Winners Bl,Golf,50,2016
+539,2016-06,Nike Men's Dri-FIT Victory Golf Polo,Golf,1881,2016
+540,2016-06,Nike Men's Free 5.0+ Running Shoe,Footwear,1048,2016
+541,2016-06,Nike Women's Legend V-Neck T-Shirt,Fitness,34,2016
+542,2016-06,Nike Women's Tempo Shorts,Footwear,33,2016
+543,2016-06,O'Brien Men's Neoprene Life Vest,Fan Shop,1585,2016
+544,2016-06,Other,Fitness,19,2016
+545,2016-06,Other,Footwear,63,2016
+546,2016-06,Other,Golf,58,2016
+547,2016-06,Other,Outdoors,654,2016
+548,2016-06,Pelican Sunstream 100 Kayak,Fan Shop,411,2016
+549,2016-06,Perfect Fitness Perfect Rip Deck,Apparel,2181,2016
+550,2016-06,Team Golf St. Louis Cardinals Putter Grip,Outdoors,30,2016
+551,2016-06,Under Armour Girls' Toddler Spine Surge Runni,Golf,895,2016
+552,2016-06,Under Armour Men's Tech II T-Shirt,Fitness,34,2016
+553,2016-06,Under Armour Women's Ignite PIP VI Slide,Footwear,51,2016
+554,2016-06,Under Armour Women's Ignite Slide,Footwear,11,2016
+555,2016-06,Under Armour Women's Micro G Skulpt Running S,Footwear,27,2016
+556,2016-06,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,20,2016
+557,2016-06,adidas Youth Germany Black/Red Away Match Soc,Golf,29,2016
+558,2016-07,Columbia Men's PFG Anchor Tough T-Shirt,Golf,28,2016
+559,2016-07,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,418,2016
+560,2016-07,ENO Atlas Hammock Straps,Fan Shop,33,2016
+561,2016-07,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,523,2016
+562,2016-07,Glove It Imperial Golf Towel,Outdoors,53,2016
+563,2016-07,Glove It Women's Imperial Golf Glove,Outdoors,35,2016
+564,2016-07,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,52,2016
+565,2016-07,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,32,2016
+566,2016-07,Nike Dri-FIT Crew Sock 6 Pack,Fitness,31,2016
+567,2016-07,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,687,2016
+568,2016-07,Nike Men's Comfort 2 Slide,Fitness,40,2016
+569,2016-07,Nike Men's Deutschland Weltmeister Winners Bl,Golf,36,2016
+570,2016-07,Nike Men's Dri-FIT Victory Golf Polo,Golf,1969,2016
+571,2016-07,Nike Men's Free 5.0+ Running Shoe,Footwear,1120,2016
+572,2016-07,Nike Women's Legend V-Neck T-Shirt,Fitness,41,2016
+573,2016-07,Nike Women's Tempo Shorts,Footwear,25,2016
+574,2016-07,O'Brien Men's Neoprene Life Vest,Fan Shop,1805,2016
+575,2016-07,Other,Fitness,59,2016
+576,2016-07,Other,Footwear,54,2016
+577,2016-07,Other,Golf,65,2016
+578,2016-07,Other,Outdoors,622,2016
+579,2016-07,Pelican Sunstream 100 Kayak,Fan Shop,515,2016
+580,2016-07,Perfect Fitness Perfect Rip Deck,Apparel,2228,2016
+581,2016-07,Team Golf St. Louis Cardinals Putter Grip,Outdoors,37,2016
+582,2016-07,Under Armour Girls' Toddler Spine Surge Runni,Golf,901,2016
+583,2016-07,Under Armour Men's Tech II T-Shirt,Fitness,25,2016
+584,2016-07,Under Armour Women's Ignite PIP VI Slide,Footwear,49,2016
+585,2016-07,Under Armour Women's Ignite Slide,Footwear,36,2016
+586,2016-07,Under Armour Women's Micro G Skulpt Running S,Footwear,41,2016
+587,2016-07,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,53,2016
+588,2016-07,adidas Youth Germany Black/Red Away Match Soc,Golf,39,2016
+589,2016-08,Columbia Men's PFG Anchor Tough T-Shirt,Golf,29,2016
+590,2016-08,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,419,2016
+591,2016-08,ENO Atlas Hammock Straps,Fan Shop,33,2016
+592,2016-08,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,534,2016
+593,2016-08,Glove It Imperial Golf Towel,Outdoors,54,2016
+594,2016-08,Glove It Women's Imperial Golf Glove,Outdoors,29,2016
+595,2016-08,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,15,2016
+596,2016-08,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,27,2016
+597,2016-08,Nike Dri-FIT Crew Sock 6 Pack,Fitness,33,2016
+598,2016-08,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,725,2016
+599,2016-08,Nike Men's Comfort 2 Slide,Fitness,27,2016
+600,2016-08,Nike Men's Deutschland Weltmeister Winners Bl,Golf,54,2016
+601,2016-08,Nike Men's Dri-FIT Victory Golf Polo,Golf,2082,2016
+602,2016-08,Nike Men's Free 5.0+ Running Shoe,Footwear,1146,2016
+603,2016-08,Nike Women's Legend V-Neck T-Shirt,Fitness,38,2016
+604,2016-08,Nike Women's Tempo Shorts,Footwear,37,2016
+605,2016-08,O'Brien Men's Neoprene Life Vest,Fan Shop,1605,2016
+606,2016-08,Other,Fitness,20,2016
+607,2016-08,Other,Footwear,72,2016
+608,2016-08,Other,Golf,58,2016
+609,2016-08,Other,Outdoors,654,2016
+610,2016-08,Pelican Sunstream 100 Kayak,Fan Shop,459,2016
+611,2016-08,Perfect Fitness Perfect Rip Deck,Apparel,2311,2016
+612,2016-08,Team Golf St. Louis Cardinals Putter Grip,Outdoors,20,2016
+613,2016-08,Under Armour Girls' Toddler Spine Surge Runni,Golf,1007,2016
+614,2016-08,Under Armour Men's Tech II T-Shirt,Fitness,17,2016
+615,2016-08,Under Armour Women's Ignite PIP VI Slide,Footwear,43,2016
+616,2016-08,Under Armour Women's Ignite Slide,Footwear,46,2016
+617,2016-08,Under Armour Women's Micro G Skulpt Running S,Footwear,43,2016
+618,2016-08,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,20,2016
+619,2016-08,adidas Youth Germany Black/Red Away Match Soc,Golf,26,2016
+620,2016-09,Columbia Men's PFG Anchor Tough T-Shirt,Golf,12,2016
+621,2016-09,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,385,2016
+622,2016-09,ENO Atlas Hammock Straps,Fan Shop,60,2016
+623,2016-09,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,508,2016
+624,2016-09,Glove It Imperial Golf Towel,Outdoors,39,2016
+625,2016-09,Glove It Women's Imperial Golf Glove,Outdoors,34,2016
+626,2016-09,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,51,2016
+627,2016-09,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,34,2016
+628,2016-09,Nike Dri-FIT Crew Sock 6 Pack,Fitness,15,2016
+629,2016-09,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,684,2016
+630,2016-09,Nike Men's Comfort 2 Slide,Fitness,40,2016
+631,2016-09,Nike Men's Deutschland Weltmeister Winners Bl,Golf,34,2016
+632,2016-09,Nike Men's Dri-FIT Victory Golf Polo,Golf,1859,2016
+633,2016-09,Nike Men's Free 5.0+ Running Shoe,Footwear,1022,2016
+634,2016-09,Nike Women's Legend V-Neck T-Shirt,Fitness,39,2016
+635,2016-09,Nike Women's Tempo Shorts,Footwear,18,2016
+636,2016-09,O'Brien Men's Neoprene Life Vest,Fan Shop,1741,2016
+637,2016-09,Other,Fitness,15,2016
+638,2016-09,Other,Footwear,86,2016
+639,2016-09,Other,Golf,35,2016
+640,2016-09,Other,Outdoors,653,2016
+641,2016-09,Pelican Sunstream 100 Kayak,Fan Shop,473,2016
+642,2016-09,Perfect Fitness Perfect Rip Deck,Apparel,2224,2016
+643,2016-09,Team Golf St. Louis Cardinals Putter Grip,Outdoors,51,2016
+644,2016-09,Under Armour Girls' Toddler Spine Surge Runni,Golf,959,2016
+645,2016-09,Under Armour Men's Tech II T-Shirt,Fitness,25,2016
+646,2016-09,Under Armour Women's Ignite PIP VI Slide,Footwear,31,2016
+647,2016-09,Under Armour Women's Ignite Slide,Footwear,42,2016
+648,2016-09,Under Armour Women's Micro G Skulpt Running S,Footwear,27,2016
+649,2016-09,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,45,2016
+650,2016-09,adidas Youth Germany Black/Red Away Match Soc,Golf,43,2016
+651,2016-10,Columbia Men's PFG Anchor Tough T-Shirt,Golf,37,2016
+652,2016-10,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,422,2016
+653,2016-10,ENO Atlas Hammock Straps,Fan Shop,26,2016
+654,2016-10,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,509,2016
+655,2016-10,Glove It Imperial Golf Towel,Outdoors,42,2016
+656,2016-10,Glove It Women's Imperial Golf Glove,Outdoors,26,2016
+657,2016-10,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,19,2016
+658,2016-10,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,27,2016
+659,2016-10,Nike Dri-FIT Crew Sock 6 Pack,Fitness,33,2016
+660,2016-10,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,725,2016
+661,2016-10,Nike Men's Comfort 2 Slide,Fitness,25,2016
+662,2016-10,Nike Men's Deutschland Weltmeister Winners Bl,Golf,35,2016
+663,2016-10,Nike Men's Dri-FIT Victory Golf Polo,Golf,2011,2016
+664,2016-10,Nike Men's Free 5.0+ Running Shoe,Footwear,1006,2016
+665,2016-10,Nike Women's Legend V-Neck T-Shirt,Fitness,16,2016
+666,2016-10,Nike Women's Tempo Shorts,Footwear,65,2016
+667,2016-10,O'Brien Men's Neoprene Life Vest,Fan Shop,1995,2016
+668,2016-10,Other,Fitness,27,2016
+669,2016-10,Other,Footwear,84,2016
+670,2016-10,Other,Golf,61,2016
+671,2016-10,Other,Outdoors,756,2016
+672,2016-10,Pelican Sunstream 100 Kayak,Fan Shop,490,2016
+673,2016-10,Perfect Fitness Perfect Rip Deck,Apparel,2278,2016
+674,2016-10,Team Golf St. Louis Cardinals Putter Grip,Outdoors,36,2016
+675,2016-10,Under Armour Girls' Toddler Spine Surge Runni,Golf,973,2016
+676,2016-10,Under Armour Men's Tech II T-Shirt,Fitness,23,2016
+677,2016-10,Under Armour Women's Ignite PIP VI Slide,Footwear,21,2016
+678,2016-10,Under Armour Women's Ignite Slide,Footwear,58,2016
+679,2016-10,Under Armour Women's Micro G Skulpt Running S,Footwear,39,2016
+680,2016-10,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,33,2016
+681,2016-10,adidas Youth Germany Black/Red Away Match Soc,Golf,38,2016
+682,2016-11,Columbia Men's PFG Anchor Tough T-Shirt,Golf,54,2016
+683,2016-11,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,426,2016
+684,2016-11,ENO Atlas Hammock Straps,Fan Shop,40,2016
+685,2016-11,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,560,2016
+686,2016-11,Glove It Imperial Golf Towel,Outdoors,39,2016
+687,2016-11,Glove It Women's Imperial Golf Glove,Outdoors,37,2016
+688,2016-11,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,30,2016
+689,2016-11,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,8,2016
+690,2016-11,Nike Dri-FIT Crew Sock 6 Pack,Fitness,30,2016
+691,2016-11,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,656,2016
+692,2016-11,Nike Men's Comfort 2 Slide,Fitness,32,2016
+693,2016-11,Nike Men's Deutschland Weltmeister Winners Bl,Golf,18,2016
+694,2016-11,Nike Men's Dri-FIT Victory Golf Polo,Golf,1847,2016
+695,2016-11,Nike Men's Free 5.0+ Running Shoe,Footwear,1183,2016
+696,2016-11,Nike Women's Legend V-Neck T-Shirt,Fitness,32,2016
+697,2016-11,Nike Women's Tempo Shorts,Footwear,24,2016
+698,2016-11,O'Brien Men's Neoprene Life Vest,Fan Shop,1759,2016
+699,2016-11,Other,Fitness,41,2016
+700,2016-11,Other,Footwear,87,2016
+701,2016-11,Other,Golf,47,2016
+702,2016-11,Other,Outdoors,662,2016
+703,2016-11,Pelican Sunstream 100 Kayak,Fan Shop,475,2016
+704,2016-11,Perfect Fitness Perfect Rip Deck,Apparel,2260,2016
+705,2016-11,Team Golf St. Louis Cardinals Putter Grip,Outdoors,46,2016
+706,2016-11,Under Armour Girls' Toddler Spine Surge Runni,Golf,901,2016
+707,2016-11,Under Armour Men's Tech II T-Shirt,Fitness,38,2016
+708,2016-11,Under Armour Women's Ignite PIP VI Slide,Footwear,17,2016
+709,2016-11,Under Armour Women's Ignite Slide,Footwear,27,2016
+710,2016-11,Under Armour Women's Micro G Skulpt Running S,Footwear,61,2016
+711,2016-11,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,25,2016
+712,2016-11,adidas Youth Germany Black/Red Away Match Soc,Golf,31,2016
+713,2016-12,Columbia Men's PFG Anchor Tough T-Shirt,Golf,40,2016
+714,2016-12,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,395,2016
+715,2016-12,ENO Atlas Hammock Straps,Fan Shop,32,2016
+716,2016-12,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,525,2016
+717,2016-12,Glove It Imperial Golf Towel,Outdoors,31,2016
+718,2016-12,Glove It Women's Imperial Golf Glove,Outdoors,47,2016
+719,2016-12,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,32,2016
+720,2016-12,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,46,2016
+721,2016-12,Nike Dri-FIT Crew Sock 6 Pack,Fitness,42,2016
+722,2016-12,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,686,2016
+723,2016-12,Nike Men's Comfort 2 Slide,Fitness,43,2016
+724,2016-12,Nike Men's Deutschland Weltmeister Winners Bl,Golf,38,2016
+725,2016-12,Nike Men's Dri-FIT Victory Golf Polo,Golf,1859,2016
+726,2016-12,Nike Men's Free 5.0+ Running Shoe,Footwear,1165,2016
+727,2016-12,Nike Women's Legend V-Neck T-Shirt,Fitness,17,2016
+728,2016-12,Nike Women's Tempo Shorts,Footwear,26,2016
+729,2016-12,O'Brien Men's Neoprene Life Vest,Fan Shop,1860,2016
+730,2016-12,Other,Fitness,29,2016
+731,2016-12,Other,Footwear,111,2016
+732,2016-12,Other,Golf,64,2016
+733,2016-12,Other,Outdoors,680,2016
+734,2016-12,Pelican Sunstream 100 Kayak,Fan Shop,446,2016
+735,2016-12,Perfect Fitness Perfect Rip Deck,Apparel,2361,2016
+736,2016-12,Team Golf St. Louis Cardinals Putter Grip,Outdoors,61,2016
+737,2016-12,Under Armour Girls' Toddler Spine Surge Runni,Golf,931,2016
+738,2016-12,Under Armour Men's Tech II T-Shirt,Fitness,48,2016
+739,2016-12,Under Armour Women's Ignite PIP VI Slide,Footwear,32,2016
+740,2016-12,Under Armour Women's Ignite Slide,Footwear,29,2016
+741,2016-12,Under Armour Women's Micro G Skulpt Running S,Footwear,28,2016
+742,2016-12,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,36,2016
+743,2016-12,adidas Youth Germany Black/Red Away Match Soc,Golf,34,2016
+744,2017-01,Columbia Men's PFG Anchor Tough T-Shirt,Golf,30,2017
+745,2017-01,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,425,2017
+746,2017-01,ENO Atlas Hammock Straps,Fan Shop,31,2017
+747,2017-01,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,503,2017
+748,2017-01,Glove It Imperial Golf Towel,Outdoors,10,2017
+749,2017-01,Glove It Women's Imperial Golf Glove,Outdoors,40,2017
+750,2017-01,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,47,2017
+751,2017-01,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,27,2017
+752,2017-01,Nike Dri-FIT Crew Sock 6 Pack,Fitness,20,2017
+753,2017-01,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,663,2017
+754,2017-01,Nike Men's Comfort 2 Slide,Fitness,48,2017
+755,2017-01,Nike Men's Deutschland Weltmeister Winners Bl,Golf,20,2017
+756,2017-01,Nike Men's Dri-FIT Victory Golf Polo,Golf,1974,2017
+757,2017-01,Nike Men's Free 5.0+ Running Shoe,Footwear,1209,2017
+758,2017-01,Nike Women's Legend V-Neck T-Shirt,Fitness,16,2017
+759,2017-01,Nike Women's Tempo Shorts,Footwear,42,2017
+760,2017-01,O'Brien Men's Neoprene Life Vest,Fan Shop,1771,2017
+761,2017-01,Other,Fitness,34,2017
+762,2017-01,Other,Footwear,75,2017
+763,2017-01,Other,Golf,43,2017
+764,2017-01,Other,Outdoors,629,2017
+765,2017-01,Pelican Sunstream 100 Kayak,Fan Shop,432,2017
+766,2017-01,Perfect Fitness Perfect Rip Deck,Apparel,2270,2017
+767,2017-01,Team Golf St. Louis Cardinals Putter Grip,Outdoors,34,2017
+768,2017-01,Under Armour Girls' Toddler Spine Surge Runni,Golf,1053,2017
+769,2017-01,Under Armour Men's Tech II T-Shirt,Fitness,44,2017
+770,2017-01,Under Armour Women's Ignite PIP VI Slide,Footwear,20,2017
+771,2017-01,Under Armour Women's Ignite Slide,Footwear,9,2017
+772,2017-01,Under Armour Women's Micro G Skulpt Running S,Footwear,36,2017
+773,2017-01,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,32,2017
+774,2017-01,adidas Youth Germany Black/Red Away Match Soc,Golf,18,2017
+775,2017-02,Columbia Men's PFG Anchor Tough T-Shirt,Golf,32,2017
+776,2017-02,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,422,2017
+777,2017-02,ENO Atlas Hammock Straps,Fan Shop,24,2017
+778,2017-02,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,481,2017
+779,2017-02,Glove It Imperial Golf Towel,Outdoors,21,2017
+780,2017-02,Glove It Women's Imperial Golf Glove,Outdoors,32,2017
+781,2017-02,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,17,2017
+782,2017-02,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,43,2017
+783,2017-02,Nike Dri-FIT Crew Sock 6 Pack,Fitness,31,2017
+784,2017-02,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,579,2017
+785,2017-02,Nike Men's Comfort 2 Slide,Fitness,43,2017
+786,2017-02,Nike Men's Deutschland Weltmeister Winners Bl,Golf,25,2017
+787,2017-02,Nike Men's Dri-FIT Victory Golf Polo,Golf,1956,2017
+788,2017-02,Nike Men's Free 5.0+ Running Shoe,Footwear,1232,2017
+789,2017-02,Nike Women's Legend V-Neck T-Shirt,Fitness,31,2017
+790,2017-02,Nike Women's Tempo Shorts,Footwear,12,2017
+791,2017-02,O'Brien Men's Neoprene Life Vest,Fan Shop,1764,2017
+792,2017-02,Other,Fitness,28,2017
+793,2017-02,Other,Footwear,64,2017
+794,2017-02,Other,Golf,65,2017
+795,2017-02,Other,Outdoors,596,2017
+796,2017-02,Pelican Sunstream 100 Kayak,Fan Shop,443,2017
+797,2017-02,Perfect Fitness Perfect Rip Deck,Apparel,2136,2017
+798,2017-02,Team Golf St. Louis Cardinals Putter Grip,Outdoors,46,2017
+799,2017-02,Under Armour Girls' Toddler Spine Surge Runni,Golf,771,2017
+800,2017-02,Under Armour Men's Tech II T-Shirt,Fitness,41,2017
+801,2017-02,Under Armour Women's Ignite PIP VI Slide,Footwear,33,2017
+802,2017-02,Under Armour Women's Ignite Slide,Footwear,21,2017
+803,2017-02,Under Armour Women's Micro G Skulpt Running S,Footwear,33,2017
+804,2017-02,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,17,2017
+805,2017-02,adidas Youth Germany Black/Red Away Match Soc,Golf,31,2017
+806,2017-03,Columbia Men's PFG Anchor Tough T-Shirt,Golf,43,2017
+807,2017-03,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,450,2017
+808,2017-03,ENO Atlas Hammock Straps,Fan Shop,37,2017
+809,2017-03,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,516,2017
+810,2017-03,Glove It Imperial Golf Towel,Outdoors,16,2017
+811,2017-03,Glove It Women's Imperial Golf Glove,Outdoors,20,2017
+812,2017-03,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,37,2017
+813,2017-03,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,20,2017
+814,2017-03,Nike Dri-FIT Crew Sock 6 Pack,Fitness,39,2017
+815,2017-03,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,726,2017
+816,2017-03,Nike Men's Comfort 2 Slide,Fitness,30,2017
+817,2017-03,Nike Men's Deutschland Weltmeister Winners Bl,Golf,26,2017
+818,2017-03,Nike Men's Dri-FIT Victory Golf Polo,Golf,2036,2017
+819,2017-03,Nike Men's Free 5.0+ Running Shoe,Footwear,1050,2017
+820,2017-03,Nike Women's Legend V-Neck T-Shirt,Fitness,16,2017
+821,2017-03,Nike Women's Tempo Shorts,Footwear,58,2017
+822,2017-03,O'Brien Men's Neoprene Life Vest,Fan Shop,1720,2017
+823,2017-03,Other,Fitness,48,2017
+824,2017-03,Other,Footwear,84,2017
+825,2017-03,Other,Golf,50,2017
+826,2017-03,Other,Outdoors,751,2017
+827,2017-03,Pelican Sunstream 100 Kayak,Fan Shop,495,2017
+828,2017-03,Perfect Fitness Perfect Rip Deck,Apparel,2215,2017
+829,2017-03,Team Golf St. Louis Cardinals Putter Grip,Outdoors,12,2017
+830,2017-03,Under Armour Girls' Toddler Spine Surge Runni,Golf,992,2017
+831,2017-03,Under Armour Men's Tech II T-Shirt,Fitness,39,2017
+832,2017-03,Under Armour Women's Ignite PIP VI Slide,Footwear,16,2017
+833,2017-03,Under Armour Women's Ignite Slide,Footwear,34,2017
+834,2017-03,Under Armour Women's Micro G Skulpt Running S,Footwear,28,2017
+835,2017-03,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,36,2017
+836,2017-03,adidas Youth Germany Black/Red Away Match Soc,Golf,36,2017
+837,2017-04,Columbia Men's PFG Anchor Tough T-Shirt,Golf,24,2017
+838,2017-04,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,436,2017
+839,2017-04,ENO Atlas Hammock Straps,Fan Shop,54,2017
+840,2017-04,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,517,2017
+841,2017-04,Glove It Imperial Golf Towel,Outdoors,31,2017
+842,2017-04,Glove It Women's Imperial Golf Glove,Outdoors,22,2017
+843,2017-04,Glove It Women's Mod Oval 3-Zip Carry All Gol,Outdoors,33,2017
+844,2017-04,LIJA Women's Eyelet Sleeveless Golf Polo,Outdoors,27,2017
+845,2017-04,Nike Dri-FIT Crew Sock 6 Pack,Fitness,10,2017
+846,2017-04,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,664,2017
+847,2017-04,Nike Men's Comfort 2 Slide,Fitness,23,2017
+848,2017-04,Nike Men's Deutschland Weltmeister Winners Bl,Golf,22,2017
+849,2017-04,Nike Men's Dri-FIT Victory Golf Polo,Golf,1702,2017
+850,2017-04,Nike Men's Free 5.0+ Running Shoe,Footwear,1086,2017
+851,2017-04,Nike Women's Legend V-Neck T-Shirt,Fitness,17,2017
+852,2017-04,Nike Women's Tempo Shorts,Footwear,21,2017
+853,2017-04,O'Brien Men's Neoprene Life Vest,Fan Shop,1836,2017
+854,2017-04,Other,Fan Shop,27,2017
+855,2017-04,Other,Fitness,43,2017
+856,2017-04,Other,Footwear,93,2017
+857,2017-04,Other,Golf,55,2017
+858,2017-04,Other,Outdoors,553,2017
+859,2017-04,Pelican Sunstream 100 Kayak,Fan Shop,481,2017
+860,2017-04,Perfect Fitness Perfect Rip Deck,Apparel,2224,2017
+861,2017-04,Team Golf St. Louis Cardinals Putter Grip,Outdoors,15,2017
+862,2017-04,Under Armour Girls' Toddler Spine Surge Runni,Golf,1014,2017
+863,2017-04,Under Armour Men's Tech II T-Shirt,Fitness,14,2017
+864,2017-04,Under Armour Women's Ignite PIP VI Slide,Footwear,23,2017
+865,2017-04,Under Armour Women's Ignite Slide,Footwear,22,2017
+866,2017-04,Under Armour Women's Micro G Skulpt Running S,Footwear,26,2017
+867,2017-04,adidas Men's F10 Messi TRX FG Soccer Cleat,Fitness,36,2017
+868,2017-04,adidas Youth Germany Black/Red Away Match Soc,Golf,38,2017
+869,2017-05,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,451,2017
+870,2017-05,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,534,2017
+871,2017-05,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,740,2017
+872,2017-05,Nike Men's Dri-FIT Victory Golf Polo,Golf,1860,2017
+873,2017-05,Nike Men's Free 5.0+ Running Shoe,Footwear,1083,2017
+874,2017-05,O'Brien Men's Neoprene Life Vest,Fan Shop,1775,2017
+875,2017-05,Other,Fan Shop,36,2017
+876,2017-05,Other,Fitness,146,2017
+877,2017-05,Other,Footwear,126,2017
+878,2017-05,Other,Golf,18,2017
+879,2017-05,Other,Outdoors,546,2017
+880,2017-05,Pelican Sunstream 100 Kayak,Fan Shop,485,2017
+881,2017-05,Perfect Fitness Perfect Rip Deck,Apparel,2218,2017
+882,2017-05,Under Armour Girls' Toddler Spine Surge Runni,Golf,1015,2017
+883,2017-06,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,410,2017
+884,2017-06,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,524,2017
+885,2017-06,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,675,2017
+886,2017-06,Nike Men's Dri-FIT Victory Golf Polo,Golf,1889,2017
+887,2017-06,Nike Men's Free 5.0+ Running Shoe,Footwear,999,2017
+888,2017-06,O'Brien Men's Neoprene Life Vest,Fan Shop,1552,2017
+889,2017-06,Other,Fan Shop,43,2017
+890,2017-06,Other,Fitness,120,2017
+891,2017-06,Other,Footwear,138,2017
+892,2017-06,Other,Golf,16,2017
+893,2017-06,Other,Outdoors,527,2017
+894,2017-06,Pelican Sunstream 100 Kayak,Fan Shop,461,2017
+895,2017-06,Perfect Fitness Perfect Rip Deck,Apparel,1934,2017
+896,2017-06,Under Armour Girls' Toddler Spine Surge Runni,Golf,906,2017
+897,2017-07,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,431,2017
+898,2017-07,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,545,2017
+899,2017-07,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,707,2017
+900,2017-07,Nike Men's Dri-FIT Victory Golf Polo,Golf,1867,2017
+901,2017-07,Nike Men's Free 5.0+ Running Shoe,Footwear,1148,2017
+902,2017-07,O'Brien Men's Neoprene Life Vest,Fan Shop,1736,2017
+903,2017-07,Other,Fan Shop,64,2017
+904,2017-07,Other,Fitness,111,2017
+905,2017-07,Other,Footwear,155,2017
+906,2017-07,Other,Golf,6,2017
+907,2017-07,Other,Outdoors,491,2017
+908,2017-07,Pelican Sunstream 100 Kayak,Fan Shop,471,2017
+909,2017-07,Perfect Fitness Perfect Rip Deck,Apparel,2305,2017
+910,2017-07,Under Armour Girls' Toddler Spine Surge Runni,Golf,1054,2017
+911,2017-08,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,391,2017
+912,2017-08,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,548,2017
+913,2017-08,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,678,2017
+914,2017-08,Nike Men's Dri-FIT Victory Golf Polo,Golf,1926,2017
+915,2017-08,Nike Men's Free 5.0+ Running Shoe,Footwear,1154,2017
+916,2017-08,O'Brien Men's Neoprene Life Vest,Fan Shop,1699,2017
+917,2017-08,Other,Fan Shop,56,2017
+918,2017-08,Other,Fitness,106,2017
+919,2017-08,Other,Footwear,169,2017
+920,2017-08,Other,Golf,17,2017
+921,2017-08,Other,Outdoors,605,2017
+922,2017-08,Pelican Sunstream 100 Kayak,Fan Shop,516,2017
+923,2017-08,Perfect Fitness Perfect Rip Deck,Apparel,2313,2017
+924,2017-08,Under Armour Girls' Toddler Spine Surge Runni,Golf,917,2017
+925,2017-09,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,436,2017
+926,2017-09,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,566,2017
+927,2017-09,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,662,2017
+928,2017-09,Nike Men's Dri-FIT Victory Golf Polo,Golf,1969,2017
+929,2017-09,Nike Men's Free 5.0+ Running Shoe,Footwear,1097,2017
+930,2017-09,O'Brien Men's Neoprene Life Vest,Fan Shop,1609,2017
+931,2017-09,Other,Apparel,36,2017
+932,2017-09,Other,Fan Shop,55,2017
+933,2017-09,Other,Fitness,120,2017
+934,2017-09,Other,Footwear,109,2017
+935,2017-09,Other,Golf,2,2017
+936,2017-09,Other,Outdoors,305,2017
+937,2017-09,Pelican Sunstream 100 Kayak,Fan Shop,472,2017
+938,2017-09,Perfect Fitness Perfect Rip Deck,Apparel,2072,2017
+939,2017-09,Under Armour Girls' Toddler Spine Surge Runni,Golf,992,2017
+940,2017-10,CDs of rock,Discs Shop,133,2017
+941,2017-10,Children's heaters,Apparel,522,2017
+942,2017-10,Dell Laptop,Technology,350,2017
+943,2017-10,Diamondback Women's Serene Classic Comfort Bi,Fan Shop,15,2017
+944,2017-10,Field & Stream Sportsman 16 Gun Fire Safe,Fan Shop,17,2017
+945,2017-10,Industrial consumer electronics,Technology,49,2017
+946,2017-10,Nike Men's CJ Elite 2 TD Football Cleat,Apparel,32,2017
+947,2017-10,Nike Men's Dri-FIT Victory Golf Polo,Golf,78,2017
+948,2017-10,Nike Men's Free 5.0+ Running Shoe,Footwear,64,2017
+949,2017-10,O'Brien Men's Neoprene Life Vest,Fan Shop,68,2017
+950,2017-10,Other,Apparel,82,2017
+951,2017-10,Other,Fitness,8,2017
+952,2017-10,Other,Footwear,12,2017
+953,2017-10,Other,Outdoors,7,2017
+954,2017-10,Pelican Sunstream 100 Kayak,Fan Shop,25,2017
+955,2017-10,Perfect Fitness Perfect Rip Deck,Apparel,120,2017
+956,2017-10,Sports Books ,Book Shop,308,2017
+957,2017-10,Under Armour Girls' Toddler Spine Surge Runni,Golf,25,2017
+958,2017-10,Web Camera,Technology,575,2017
+959,2017-11,Adult dog supplies,Pet Shop,127,2017
+960,2017-11,DVDs ,Discs Shop,367,2017
+961,2017-11,First aid kit,Health and Beauty ,239,2017
+962,2017-11,Industrial consumer electronics,Technology,236,2017
+963,2017-11,Other,Apparel,177,2017
+964,2017-11,Other,Outdoors,388,2017
+965,2017-11,Porcelain crafts,Apparel,231,2017
+966,2017-11,Rock music,Discs Shop,290,2017
+967,2017-12,Adult dog supplies,Pet Shop,119,2017
+968,2017-12,CDs of rock,Discs Shop,138,2017
+969,2017-12,Children's heaters,Apparel,130,2017
+970,2017-12,DVDs ,Discs Shop,109,2017
+971,2017-12,Dell Laptop,Technology,92,2017
+972,2017-12,Fighting video games,Discs Shop,228,2017
+973,2017-12,Industrial consumer electronics,Technology,146,2017
+974,2017-12,Other,Apparel,125,2017
+975,2017-12,Other,Fan Shop,253,2017
+976,2017-12,Other,Fitness,145,2017
+977,2017-12,Porcelain crafts,Apparel,253,2017
+978,2017-12,Sports Books ,Book Shop,97,2017
+979,2017-12,Summer dresses,Apparel,272,2017
+980,2017-12,Web Camera,Technology,17,2017
+981,2018-01,Adult dog supplies,Pet Shop,246,2018
+982,2018-01,DVDs ,Discs Shop,7,2018
+983,2018-01,Fighting video games,Discs Shop,610,2018
+984,2018-01,First aid kit,Health and Beauty ,123,2018
+985,2018-01,Other,Apparel,31,2018
+986,2018-01,Other,Fan Shop,276,2018
+987,2018-01,Other,Fitness,212,2018
+988,2018-01,Other,Outdoors,96,2018
+989,2018-01,Rock music,Discs Shop,144,2018
+990,2018-01,Summer dresses,Apparel,378,2018
