@@ -34,7 +34,8 @@ drw-rw-rw- 6 ngchuchi ngchuchi    4096 Nov 26 16:55 assets/
 drw-rw-r-- 4 ngchuchi ngchuchi    4096 Nov 26 16:56 vendor/
 harbinger:~/w209$
 ```
-3. Reload your server (cd ~/w209; touch start.wsgi)
-4. From a browser, enter URL https://apps-fall.ischool.berkeley.edu/~ngchuchi/w209/ (replace ngchuchi with your username.) 
-5. If everything works, you should see the landing page.
+3. Open w209.html and chart.html, replace ngchuchi with your username.
+4. Reload your server (cd ~/w209; touch start.wsgi)
+5. From a browser, enter URL https://apps-fall.ischool.berkeley.edu/~ngchuchi/w209/ (replace ngchuchi with your username.) 
+6. If everything works, you should see the landing page.
 
