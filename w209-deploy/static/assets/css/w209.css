@@ -1,0 +1,11 @@
+/*
+ *  Customizations for vega-altair widgets.
+ */
+.vega-bind {
+  text-align:left;
+  padding:8px;
+  font-family:Arial;
+}
+.vega-bind-name {
+  padding-right:5px;
+}
