@@ -8,6 +8,8 @@ from otd_page1 import create_shipper_customer_view
 from otd_page2 import create_order_attributes_view
 from otd_page3 import create_shipper_customer_map
 
+from customer_page1 import display_chart_country, display_customer_base_bar,display_customer_cohort_heatmap
+
 
 # Setup Flask log file.
 dictConfig(
@@ -26,7 +28,7 @@ dictConfig(
             },
             "file": {
                 "class": "logging.FileHandler",
-                "filename": "/home/ngchuchi/w209/flask.log",
+                "filename": "/home/amomin/w209/flask.log",
                 "formatter": "default",
             },
         },
@@ -66,6 +68,17 @@ def otd_page3():
   chart_json = create_shipper_customer_map()
   return render_template("chart.html", chart_json=chart_json)
 
+@app.route("/customer_1/")
+def otd_page4():
+  app.logger.debug("Calling customer_page1...")
+  chart_json = display_customer_cohort_heatmap()
+  return render_template("chart.html", chart_json=chart_json)
+
+@app.route("/customer_2/")
+def otd_page5():
+  app.logger.debug("Calling customer_page2...")
+  chart_json =  display_customer_base_bar()
+  return render_template("chart.html", chart_json=chart_json)
 
 if __name__ == "__main__":
   app.logger.debug("Starting app....")
