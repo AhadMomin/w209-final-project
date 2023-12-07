@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <title>eCommerce KPI Analysis Report</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/~casey.hahn/w209/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/templatemo-seo-dream.css">
+    <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/animated.css">
+    <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/owl.css">
+    <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/w209.css">
+
+    <!-- Additional scripts for Altair -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+    <style>
+    /* Define a box around the chart container */
+    .chart-container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 20px; /* Adjust margin as needed */
+    }
+
+    /* Style for the instructions */
+    .instructions {
+      font-size: 12px;
+      line-height: 1.6;
+      /* Add any additional styles for instructions */
+    }
+
+    body {
+    padding-top: 140px; /* Adjust the value based on your header height */
+  }
+  </style>
+
+</head>
+
+<!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+<!--            <a href="w209.html" class="logo">-->
+<!--              <h4>SEO Dream <img src="/~casey.hahn/w209/static/assets/images/logo-icon.png" alt=""></h4>-->
+<!--            </a>-->
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#about">About the Project</a></li>
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#features">Analysis</a></li>
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#about-team">About the Team</a></li>
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+
+<body>
+
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  
+
+  
+
+  <!-- Scripts -->
+  <script src="/~casey.hahn/w209/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/~casey.hahn/w209/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/owl-carousel.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/animation.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/imagesloaded.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/custom.js"></script>
+
+
+
+<h2 style="text-align: center; margin-bottom: 20px;">Sales - 2015 to 2017</h2>
+
+
+<!-- Buttons for switching between department and geographic trends -->
+<button onclick="showChart()">Total Sales</button>
+<button onclick="showDepartmentTrends()">Department Trends</button>
+<button onclick="showGeographicTrends()">Geographic Trends</button>
+
+<!-- Chart container to display the charts -->
+<div id="charts-container"></div>
+
+
+<div class="chart-container">
+  <div id="chart"></div>
+
+
+    <script>
+    // Function to display the 'Total Sales' chart by default
+    function showChartByDefault() {
+      const chartJson = {{ chart_json | safe }};
+      vegaEmbed('#chart', chartJson);
+    }
+
+    // Call the function to display 'Total Sales' chart when the page loads
+    window.onload = function () {
+      showChartByDefault();
+    };
+  </script>
+
+
+    <script>
+    function showChart() {
+      const chartJson = {{ chart_json | safe }};
+      vegaEmbed('#chart', chartJson);
+    }
+  </script>
+
+
+  <script>
+    function showDepartmentTrends() {
+      const chartJsonDepartment = {{ chart_json_department_trends | safe }};
+      vegaEmbed('#chart', chartJsonDepartment);
+    }
+  </script>
+
+  <script>
+    function showGeographicTrends() {
+      const chartJsonGeographic = {{ chart_json_geographic_trends | safe }};
+      vegaEmbed('#chart', chartJsonGeographic);
+    }
+  </script>
+</div>
+
+
+
+</body>
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2023 Datasci-209 Fall Section-4, Team-5. All Rights Reserved.
+          <br>Powered by <a rel="nofollow" href="https://altair-viz.github.io/index.html">Vega-Altair</a>,
+          Web Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">TemplateMo</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</html>

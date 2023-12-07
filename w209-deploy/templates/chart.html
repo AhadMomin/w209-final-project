@@ -14,20 +14,40 @@
   <title>eCommerce KPI Analysis Report</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/~amomin/w209/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/~casey.hahn/w209/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="/~amomin/w209/static/assets/css/fontawesome.css">
-  <link rel="stylesheet" href="/~amomin/w209/static/assets/css/templatemo-seo-dream.css">
-  <link rel="stylesheet" href="/~amomin/w209/static/assets/css/animated.css">
-  <link rel="stylesheet" href="/~amomin/w209/static/assets/css/owl.css">
-  <link rel="stylesheet" href="/~amomin/w209/static/assets/css/w209.css">
+  <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/fontawesome.css">
+  <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/templatemo-seo-dream.css">
+  <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/animated.css">
+  <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/owl.css">
+  <link rel="stylesheet" href="/~casey.hahn/w209/static/assets/css/w209.css">
 
   <!-- Additional scripts for Altair -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <style>
+  /* Define a box around the chart container */
+  .chart-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  /* Style for the instructions */
+  .instructions {
+    font-size: 12px;
+    line-height: 1.6;
+    /* Add any additional styles for instructions */
+  }
+
+  body {
+  padding-top: 140px; /* Adjust the value based on your header height */
+}
+</style>
 
 </head>
 
@@ -54,15 +74,15 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <!--            <a href="w209.html" class="logo">-->
-            <!--              <h4>SEO Dream <img src="/~amomin/w209/static/assets/images/logo-icon.png" alt=""></h4>-->
+            <!--              <h4>SEO Dream <img src="/~casey.hahn/w209/static/assets/images/logo-icon.png" alt=""></h4>-->
             <!--            </a>-->
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="/~amomin/w209/#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="/~amomin/w209/#features">Analysis</a></li>
-              <li class="scroll-to-section"><a href="/~amomin/w209/#about">About the Project</a></li>
-              <li class="scroll-to-section"><a href="/~amomin/w209/#contact">Contact Us</a></li>
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#about">About the Project</a></li>
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#features">Analysis</a></li>
+              <li class="scroll-to-section"><a href="/~casey.hahn/w209/#about-team">About the Team</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -75,7 +95,25 @@
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <footer>
+  
+
+  <!-- Scripts -->
+  <script src="/~casey.hahn/w209/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/~casey.hahn/w209/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/owl-carousel.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/animation.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/imagesloaded.js"></script>
+  <script src="/~casey.hahn/w209/static/assets/js/custom.js"></script>
+
+  <div id="chart"></div>
+  <script type="text/javascript">
+    const chartJson = {{ chart_json | safe }};
+    vegaEmbed('#chart', chartJson);
+  </script>
+
+</body>
+
+<footer>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -87,21 +125,5 @@
       </div>
     </div>
   </footer>
-
-  <!-- Scripts -->
-  <script src="/~amomin/w209/static/vendor/jquery/jquery.min.js"></script>
-  <script src="/~amomin/w209/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/~amomin/w209/static/assets/js/owl-carousel.js"></script>
-  <script src="/~amomin/w209/static/assets/js/animation.js"></script>
-  <script src="/~amomin/w209/static/assets/js/imagesloaded.js"></script>
-  <script src="/~amomin/w209/static/assets/js/custom.js"></script>
-
-  <div id="chart"></div>
-  <script type="text/javascript">
-    const chartJson = {{ chart_json | safe }};
-    vegaEmbed('#chart', chartJson);
-  </script>
-
-</body>
 
 </html>

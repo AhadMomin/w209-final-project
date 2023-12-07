@@ -8,7 +8,8 @@ from otd_page1 import create_shipper_customer_view
 from otd_page2 import create_order_attributes_view
 from otd_page3 import create_shipper_customer_map
 
-from customer_page1 import display_chart_country, display_customer_base_bar,display_customer_cohort_heatmap
+from customer_page1 import display_customer_base_bar,display_customer_cohort_heatmap
+from charts_sales import display_chart_country, display_chart_sales, display_chart_sales_state, display_sales, display_heatmap
 
 
 # Setup Flask log file.
@@ -28,7 +29,7 @@ dictConfig(
             },
             "file": {
                 "class": "logging.FileHandler",
-                "filename": "/home/amomin/w209/flask.log",
+                "filename": "/home/casey.hahn/w209/flask.log",
                 "formatter": "default",
             },
         },
@@ -79,6 +80,26 @@ def otd_page5():
   app.logger.debug("Calling customer_page2...")
   chart_json =  display_customer_base_bar()
   return render_template("chart.html", chart_json=chart_json)
+
+@app.route("/chart-sales-1")
+def display_chart_sales_1():
+    app.logger.debug("Calling chart_page1...")
+    chart_json = display_sales()
+    chart_json_department_trends = display_chart_sales()
+    chart_json_geographic_trends = display_chart_sales_state()
+    return render_template("chart_sales_page1_buttons.html", chart_json = chart_json, chart_json_department_trends=chart_json_department_trends, chart_json_geographic_trends=chart_json_geographic_trends)
+
+@app.route("/chart-sales-2")
+def display_chart_sales_2():
+    app.logger.debug("Calling chart_page2...")
+    chart_json = display_heatmap()
+    return render_template("chart.html", chart_json=chart_json)
+
+@app.route("/chart-sales-3")
+def display_chart_sales_3():
+    app.logger.debug("Calling chart_page3...")
+    chart_json = display_chart_country()
+    return render_template("chart.html", chart_json=chart_json)
 
 if __name__ == "__main__":
   app.logger.debug("Starting app....")
