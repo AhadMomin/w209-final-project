@@ -52,19 +52,19 @@ def api():
 def otd_page1():
   app.logger.debug("Calling otd_page1...")
   chart_json = create_shipper_customer_view()
-  return render_template("chart.html", chart_json=chart_json)
+  return render_template("chart1.html", chart_json=chart_json)
 
 @app.route("/otd-page2/")
 def otd_page2():
   app.logger.debug("Calling otd_page2...")
   chart_json = create_order_attributes_view()
-  return render_template("chart.html", chart_json=chart_json)
+  return render_template("chart2.html", chart_json=chart_json)
 
 @app.route("/otd-page3/")
 def otd_page3():
   app.logger.debug("Calling otd_page3...")
   chart_json = create_shipper_customer_map()
-  return render_template("chart.html", chart_json=chart_json)
+  return render_template("chart3.html", chart_json=chart_json)
 
 
 if __name__ == "__main__":
