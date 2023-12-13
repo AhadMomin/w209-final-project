@@ -9,6 +9,7 @@ from otd_page2 import create_order_attributes_view
 from otd_page3 import create_shipper_customer_map
 
 from customer_page1 import display_chart_country, display_customer_base_bar,display_customer_cohort_heatmap
+from customer_page2 import display_customer_base_dash, display_customer_cohort_dash
 
 
 # Setup Flask log file.
@@ -71,13 +72,13 @@ def otd_page3():
 @app.route("/customer_1/")
 def otd_page4():
   app.logger.debug("Calling customer_page1...")
-  chart_json = display_customer_cohort_heatmap()
+  chart_json = display_customer_base_dash()
   return render_template("chart.html", chart_json=chart_json)
 
 @app.route("/customer_2/")
 def otd_page5():
   app.logger.debug("Calling customer_page2...")
-  chart_json =  display_customer_base_bar()
+  chart_json =  display_customer_cohort_dash()
   return render_template("chart.html", chart_json=chart_json)
 
 if __name__ == "__main__":
