@@ -146,6 +146,7 @@ def create_order_attributes_view(year=2015, preview=False):
       'Total Delivery Status Percentages',
       ['By Key Order Attributes'], center=True)
   )
+  chart.spacing = 120
 
   if (preview):
     chart.display()

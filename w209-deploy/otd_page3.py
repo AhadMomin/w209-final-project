@@ -122,9 +122,9 @@ def create_customer_map(map_df, legend, preview=False):
 
 """### Page-3: Combined Map"""
 
-def create_shipper_customer_map(preview=False):
+def create_shipper_customer_map(year=2015, preview=False):
   # Load data.
-  agg_df, map_df = load_data()
+  agg_df, map_df = load_data(year)
 
   # Create a common legend.
   legend = selectable_legend(agg_df, 'Delivery Status:N')
