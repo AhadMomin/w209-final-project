@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <title>eCommerce KPI Analysis Report</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/~ngchuchi/w209/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="/~ngchuchi/w209/static/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/~ngchuchi/w209/static/assets/css/templatemo-seo-dream.css">
+    <link rel="stylesheet" href="/~ngchuchi/w209/static/assets/css/animated.css">
+    <link rel="stylesheet" href="/~ngchuchi/w209/static/assets/css/owl.css">
+    <link rel="stylesheet" href="/~ngchuchi/w209/static/assets/css/w209.css">
+
+    <!-- Additional scripts for Altair -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <style>
+  /* Define a box around the chart container */
+  .chart-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  /* Style for the instructions */
+  .instructions {
+    font-size: 12px;
+    line-height: 1.6;
+    /* Add any additional styles for instructions */
+  }
+
+  body {
+    padding-top: 140px; /* Adjust the value based on your header height */
+  }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+<!--            <a href="w209.html" class="logo">-->
+<!--              <h4>SEO Dream <img src="/~ngchuchi/w209/static/assets/images/logo-icon.png" alt=""></h4>-->
+<!--            </a>-->
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="/~ngchuchi/w209/#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="/~ngchuchi/w209/#features">Analysis</a></li>
+              <li class="scroll-to-section"><a href="/~ngchuchi/w209/#about">About the Project</a></li>
+              <li class="scroll-to-section"><a href="/~ngchuchi/w209/#contact">Contact Us</a></li>
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Visualization Area Start ***** -->
+  <div id="viz" class="features section">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                <!-- ***** Instructions Area Start ***** -->
+                <div>
+                  <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  title="Click here to learn more about this dashboard, including how to use it and examples.">
+                      Instructions
+                  </button>
+                </div>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+
+<div style="margin: 5px 0;">
+  <p>This dashboard highlights the relationships between the Delivery Status and the key attributes of an online order.</p>
+  <h5>Order Key Attributes</h5>
+  <ul>
+    <li>Type: Type of transaction made, e.g., Debit Card, Payment (aka Credit Card), Transfer, Cash</li>
+    <li>Order Status: State of the Order, e.g., COMPLETE, PENDING, CLOSED</li>
+    <li>Department: Department name of store, e.g., Fitness, Golf</li>
+    <li>Delivery Status: Delivery status of orders, e.g., Advance shipping, Late delivery, Shipping canceled, Shipping on time.</li>
+  </ul>
+  <p>&nbsp;</p>
+  <h5>Instructions:</h5>
+  <p>This is an interactive dashboard. To focus on your analysis, you can modify the views in two ways:</p>
+  <h6>(1) Delivery Status Chart:</h6>
+  <ul>
+    <li>Select the Delivery Status you want to see by clicking inside any bar chart.</li>
+    <li>You can also narrow your search by clicking on the Delivery Status legend.</li>
+    <li>Click and hold the shift key to select more than one Delivery Status.</li>
+    <li>Click inside the chart to clear your filter selections.</li>
+    <li>Hover over each bar in a chart to see the statistical data beneath the bar.</li>
+    <li>The color of the bar represents the Delivery Status (Dark Blue: Advance Shipping, Light Blue: Late Delivery, Orange: Shipping Canceled, Light Orange: Shipping on Time)</li>
+  </ul>
+  <p>&nbsp;</p>
+  <h6>(2) Customers and Shippers Location Filters:</h6>
+  <ul>
+    <li>You can enhance your navigation experience by using any of the four geographical-related filters.</li>
+    <li>The Customer State and Customer Country filters allow you to focus on the on-time delivery status in specific customer locations.</li>
+    <li>Customer State: State abbreviation for the store where the purchase is registered, e.g., CA, TX</li>
+    <li>Customer Country: Country where the customer made the purchase, e.g., Puerto Rico, United States</li>
+    <li>Order Region and Market enable you to concentrate on the on-time delivery status in certain shipper areas.</li>
+    <li>Order Region: Region of the world where the order is delivered from, e.g., Southeast Asia, Oceania, Eastern Asia,</li>
+    <li>Market: Market to where the order is delivered from, e.g., Africa, Europe, Pacific Asia, LATAM (aka Latin American), USCA (aka Central America)</li>
+  </ul>
+  <p>&nbsp;</p>
+  <h5>Example:</h5>
+  <p><strong><u>Task</u></strong>: Explore the relationships between California customers and Southeast Asia Shippers' performance (Measure by Late Delivery and On-Time status).</p>
+  <ul>
+    <li>To view Late Delivery AND On-time orders, from the Delivery Status Legend, click on the 'Late delivery' legend (light blue). Then, hold the shift key and click on the 'Shipping on time' legend (light orange).</li>
+    <li>From the filter widgets located below the page, select CA (California) from the Customer State filter.</li>
+    <li>Also, select 'Southeast Asia' from the Order Region filter.</li>
+  </ul>
+  <p><strong><u>Observations</u></strong>:</p>
+  <ul>
+    <li>You should see 325 Late delivery orders and 106 On-Time orders.</li>
+    <li>110 orders were Debit payment.</li>
+  </ul>
+  Top-3 departments the orders were ordered from are Fan Shop, Apparel, and Golf.
+</div>
+
+                  </div>
+                </div>
+                <!-- ***** Instructions Area End ***** -->
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col">
+                <!-- ***** Altair Area Start ***** -->
+                <div id="chart"></div>
+                <script type="text/javascript">
+                  const chartJson = {{ chart_json | safe }};
+                  vegaEmbed('#chart', chartJson);
+                </script>
+                <!-- ***** Altair Area End ***** -->
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- ***** Visualization Area End ***** -->  
+
+  <!-- Scripts -->
+  <script src="/~ngchuchi/w209/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/~ngchuchi/w209/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/~ngchuchi/w209/static/assets/js/owl-carousel.js"></script>
+  <script src="/~ngchuchi/w209/static/assets/js/animation.js"></script>
+  <script src="/~ngchuchi/w209/static/assets/js/imagesloaded.js"></script>
+  <script src="/~ngchuchi/w209/static/assets/js/custom.js"></script>
+
+</body>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>Copyright © 2023 Datasci-209 Fall Section-4, Team-5. All Rights Reserved.
+        <br>Powered by <a rel="nofollow" href="https://altair-viz.github.io/index.html">Vega-Altair</a>,
+        Web Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">TemplateMo</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>

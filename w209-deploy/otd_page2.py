@@ -50,7 +50,7 @@ from otd_utils import selectable_legend,selectable_bar,radio_selection,dropdown_
 - This will make the current notebook clean and improve performance.
 """
 
-def load_data():
+def load_data(year=2015):
   # Load aggregation-specific dataset.
   agg_df = pd.read_csv(os.path.join(DATA_DIR,'DataCoSupplyChainDataset_DS_AGG.csv'),encoding='unicode_escape')
 
@@ -59,7 +59,7 @@ def load_data():
   # display(agg_df.head())
   # display(agg_df.shape)
 
-  return agg_df
+  return agg_df[ agg_df['Order Year'] == year ]
 
 """## Build Views: Page-2
 
@@ -84,7 +84,7 @@ def create_filters(agg_df):
   return filters
 
 # Create order attributes view.
-def create_shipper_customer_order_attributes_view(agg_df, legend):
+def create_shipper_customer_order_attributes_view(agg_df, legend, preview=False):
   filters = create_filters(agg_df)
   filter_list = list(filters.values())
 
@@ -105,15 +105,16 @@ def create_shipper_customer_order_attributes_view(agg_df, legend):
     for f in filter_list: plt = plt.transform_filter(f)
     plots[p] = plt
 
-  # plots['Type'] | plots['Delivery Status'] | plots['Order Status'] | plots['Department Name'] # Uncomment to test.
+  if (preview):
+    (plots['Type'] | plots['Order Status'] | plots['Delivery Status'] | plots['Department Name']).display()
 
   return plots
 
 """### Page-2: Order Attributes View"""
 
-def create_order_attributes_view(preview=False):
+def create_order_attributes_view(year=2015, preview=False):
   # Load data.
-  agg_df = load_data()
+  agg_df = load_data(year)
 
   # Create a common legend.
   legend = selectable_legend(agg_df, 'Delivery Status:N')
@@ -150,6 +151,27 @@ def create_order_attributes_view(preview=False):
     chart.display()
 
   return chart.to_json()
+
+"""## Unit Tests"""
+
+def __test_selectable_legend():
+  agg_df = load_data()
+  legend = selectable_legend(agg_df, 'Delivery Status:N')
+  legend['plot'].display()
+
+# __test_selectable_legend()
+
+def __test_create_shipper_customer_order_attributes_view():
+  agg_df = load_data()
+  legend = selectable_legend(agg_df, 'Delivery Status:N')
+  create_shipper_customer_order_attributes_view(agg_df, legend, preview=True)
+
+# __test_create_shipper_customer_order_attributes_view()
+
+def __test_create_order_attributes_view():
+  create_order_attributes_view(preview=True)
+
+# __test_create_order_attributes_view()
 
 # Customize filter widgets - To update in server, modify chart.html
 # from IPython.display import HTML

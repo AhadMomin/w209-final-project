@@ -51,7 +51,7 @@ from otd_utils import selectable_legend, selectable_bar, global_styles, title_st
 - This will make the current notebook clean and improve performance.
 """
 
-def load_data():
+def load_data(year=2015):
   # Load aggregation-specific dataset.
   agg_df = pd.read_csv(os.path.join(DATA_DIR,'DataCoSupplyChainDataset_DS_AGG.csv'),encoding='unicode_escape')
 
@@ -60,7 +60,7 @@ def load_data():
   # display(agg_df.head())
   # display(agg_df.shape)
 
-  return agg_df
+  return agg_df[ agg_df['Order Year'] == year ]
 
 """## Build Views: Page-1
 
@@ -68,7 +68,7 @@ def load_data():
 """
 
 # Create shipper view.
-def create_shipper_view(agg_df, legend):
+def create_shipper_view(agg_df, legend, preview=False):
   # Create Shippers' Market plot WRT Delivery Status.
   market_plot = selectable_bar(
       agg_df, [], 'Market:N', 'Shipper Market', legend)
@@ -85,7 +85,7 @@ def create_shipper_view(agg_df, legend):
 
   # Create Shippers' Country plot WRT Delivery Status.
   country_plot = selectable_bar(
-      agg_df, ['Market', 'Order Region'], 'Order Country:N', 'Shipper Country', legend, horizontal=False)
+      agg_df, ['Market', 'Order Region'], 'Order Country:N', 'Shipper Country', legend)
 
   country_plot['plot'] = country_plot['plot'].add_params(
     market_plot['selection'],
@@ -95,14 +95,16 @@ def create_shipper_view(agg_df, legend):
           'and': [market_plot['selection'], region_plot['selection']]
       }
   )
-  # (market_plot['plot'] & region_plot['plot']) | (country_plot['plot'] | legend['plot']) # Uncomment to test.
+
+  if (preview):
+    ((market_plot['plot'] & region_plot['plot']) | (country_plot['plot'] | legend['plot'])).display()
 
   return market_plot, region_plot, country_plot
 
 """### Viz-1.2: Customer View"""
 
 # Create customer view.
-def create_customer_view(agg_df, legend):
+def create_customer_view(agg_df, legend, preview=False):
   # Create Customers' Country plot WRT Delivery Status.
   cust_country_plot = selectable_bar(
       agg_df, [], 'Customer Country:N', legend=legend)
@@ -110,20 +112,22 @@ def create_customer_view(agg_df, legend):
 
   # Create Customers' State plot WRT Delivery Status.
   cust_state_plot = selectable_bar(
-      agg_df, ['Customer Country'], 'Customer State:N', legend=legend, horizontal=False)
+      agg_df, ['Customer Country'], 'Customer State:N', legend=legend)
 
   cust_state_plot['plot'] = cust_state_plot['plot'].transform_filter(
       cust_country_plot['selection']
   )
-  # cust_country_plot['plot'] | cust_state_plot['plot'] | legend['plot'] # Uncomment to test.
+
+  if (preview):
+    (cust_country_plot['plot'] | cust_state_plot['plot'] | legend['plot']).display()
 
   return cust_country_plot, cust_state_plot
 
 """### Page-1: Shipper & Customer View"""
 
-def create_shipper_customer_view(preview=False):
+def create_shipper_customer_view(year=2015, preview=False):
   # Load data.
-  agg_df = load_data()
+  agg_df = load_data(year)
 
   # Create a common legend.
   legend = selectable_legend(agg_df, 'Delivery Status:N')
@@ -143,10 +147,10 @@ def create_shipper_customer_view(preview=False):
   )
   r1 = r1_1 | region_plot['plot'] | legend['plot']
   r1 = r1.properties(
-      title = title_styles_heading(
-          'Total Delivery Status Percentages',
-           ['By Shippers & Customers Regions'], center=True)
+      title = title_styles_heading('Section-1: Shippers & Customers Areas:')
   )
+  r1.title.fontSize = 16
+  r1.spacing = 120
 
   # Initialize second panel - Details: Shipper Countries & Customer States.
   styled_country_plot = country_plot['plot'].properties(
@@ -155,13 +159,21 @@ def create_shipper_customer_view(preview=False):
   styled_cust_state_plot = cust_state_plot['plot'].properties(
       title = title_styles_heading(subtitle=['Customer States'])
   )
-  r2 = (styled_country_plot & styled_cust_state_plot)
+  r2 = (styled_country_plot | styled_cust_state_plot)
   r2 = r2.properties(
-      title = title_styles_heading('Regional Details:')
+      title = title_styles_heading('Section-2: Shippers & Customers Locations Details:')
   )
+  r2.title.fontSize = 16
+  r2.spacing = 120
 
   # Combined view.
   chart = r1 & r2
+  chart = chart.properties(
+      title = title_styles_heading(
+          'Total Delivery Status Counts',
+           ['By Shippers & Customers Regions'], center=True)
+  )
+  chart.spacing = 80
   # chart.padding = {'left': 50, 'top': 350, 'right': 50, 'bottom': 350}
 
   if (preview):
@@ -169,5 +181,86 @@ def create_shipper_customer_view(preview=False):
 
   return chart.to_json()
 
-# Uncomment the line below to test.
-# create_shipper_customer_view(preview=True)
+"""## Unit Tests"""
+
+def __test_selectable_legend():
+  agg_df = load_data()
+  legend = selectable_legend(agg_df, 'Delivery Status:N')
+  legend['plot'].display()
+
+# __test_selectable_legend()
+
+def __test_create_shipper_view():
+  agg_df = load_data()
+  legend = selectable_legend(agg_df, 'Delivery Status:N')
+  create_shipper_view(agg_df, legend, preview=True)
+
+# __test_create_shipper_view()
+
+def __test_create_customer_view():
+  agg_df = load_data()
+  legend = selectable_legend(agg_df, 'Delivery Status:N')
+  create_customer_view(agg_df, legend, preview=True)
+
+# __test_create_customer_view()
+
+def __test_create_shipper_customer_view():
+  create_shipper_customer_view(preview=True)
+
+# __test_create_shipper_customer_view()
+
+# Smaller unit test: Good for focus-testing on smaller changes.
+def __test_create_shipper_view_market_plot():
+  agg_df = load_data()
+  legend = selectable_legend(agg_df, 'Delivery Status:N')
+  market_plot, region_plot, country_plot = create_shipper_view(agg_df, legend)
+  market_plot['plot'].display()
+
+# __test_create_shipper_view_market_plot()
+
+"""## Experiment"""
+
+# Consider: Pre-calculate group-by count. Later, calculate percentage on the fly.
+# agg_df.groupby(['Market', 'Delivery Status']).size().reset_index(name='Group By Count')
+
+# Viz to group by total percentage
+def __exp1():
+  test_df = load_data()
+
+  total_items = len(test_df)
+  alt.Chart(test_df).transform_aggregate(
+      grp_by_count='count()',
+      groupby=['Market', 'Delivery Status']
+  # )
+  # .transform_joinaggregate(
+  #     __total_items__='count()',
+  ).transform_calculate(
+      PercentOfTotal=f"datum.grp_by_count / {total_items}"
+  ).mark_bar(tooltip=True).encode(
+      alt.X('PercentOfTotal:Q').axis(format='.0%'),
+      y='Market:N',
+      color='Delivery Status:N'
+  )
+
+# Viz to group by count.
+def __exp2():
+  test_df = load_data()
+
+  alt.Chart(test_df).mark_bar(
+      tooltip=True,
+      cornerRadiusTopLeft=3,
+      cornerRadiusTopRight=3
+  ).encode(
+      y='Market',
+      x='count(Market):Q',
+      color='Delivery Status:N',
+  )
+
+def __exp3():
+  # Experiment-and-test selectable_bar
+  test_df = load_data()
+  legend = selectable_legend(test_df, 'Delivery Status:N')
+
+  market_plot = selectable_bar(
+        test_df, [], 'Market:N', 'Shipper Market', legend)
+  market_plot['plot'] | legend['plot']

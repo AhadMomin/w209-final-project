@@ -102,27 +102,24 @@ def selectable_bar(
     agg_title = agg_col_title
 
   # Define x and y axis.
+  agg_col_short_hand=f'count({agg_col_name}):Q'
   if (horizontal):
-    x_axis=alt.X('PercentOfTotal:Q', axis=alt.Axis(format='%'), title='Percent of Total')
+    x_axis=alt.X(agg_col_short_hand, title='Total Orders')
     y_axis=alt.Y(agg_col, sort='-x', title=agg_title)
   else:
     x_axis=alt.X(agg_col, sort='-y', title=agg_title)
-    y_axis=alt.Y('PercentOfTotal:Q', axis=alt.Axis(format='%'), title='Percent of Total')
+    y_axis=alt.Y(agg_col_short_hand, title='Total Orders')
 
   # Plot a bar chart with total orders by the given column.
-  chart = alt.Chart(data).transform_joinaggregate(
-      TotalOrder='sum(Total)',
-  ).transform_calculate(
-      PercentOfTotal="datum.Total / datum.TotalOrder"
-  ).mark_bar(tooltip=True).encode(
+  chart = alt.Chart(data).mark_bar(
+      tooltip=True
+  ).encode(
       x=x_axis,
       y=y_axis,
       color=condition
   ).add_params(
       selection,
       legend['selection']
-  ).transform_filter(
-      alt.FieldLTPredicate("datum.TotalOrder", 10000)
   ).properties(
       title={
         'text': title,
@@ -369,3 +366,87 @@ def labeled_pct_bar(data, column, category_name):
 # r + t
 
 # r
+
+# Create a selectable bar plot by total percentage.
+# This function depends on the dataset to be pre-grouped by the
+# aggregated columns. This is to improve the performance.
+#
+# TODO: Issue: The bar chart display is segmented by individual total.
+# (12.01.2023)
+def selectable_bar_by_percentage(
+    data, sel_cols,
+    agg_col, agg_col_title="",
+    legend=NotImplementedError,
+    horizontal=True,
+    title="", subtitle=""):
+
+  # Add aggregated column to the selectable fields.
+  agg_col_name = agg_col.split(':') [0]
+  sel_cols.append(agg_col_name)
+
+  # Add legend name to the selectable fields.
+  legend_name_type = legend['plot'].encoding.y.shorthand
+  legend_name = legend_name_type.split(':') [0]
+  sel_cols.append(legend_name)
+
+  # Define Selection and Condition.
+  selection = alt.selection_point(fields=sel_cols)
+  condition = alt.condition(
+      # selection,
+      alt.LogicalAndPredicate(**{
+        'and': [selection, legend['selection']]
+      }),
+      alt.Color(legend_name_type, legend=None,
+                scale=alt.Scale(scheme=global_styles['chart-color-scheme'])),
+      alt.value('lightgray')
+  )
+
+  # Define aggregated title.
+  agg_title = agg_col_name
+  if (agg_col_title):
+    agg_title = agg_col_title
+
+  # Define x and y axis.
+  if (horizontal):
+    x_axis=alt.X('PercentOfTotal:Q', axis=alt.Axis(format='%'), title='Percent of Total')
+    y_axis=alt.Y(agg_col, sort='-x', title=agg_title)
+  else:
+    x_axis=alt.X(agg_col, sort='-y', title=agg_title)
+    y_axis=alt.Y('PercentOfTotal:Q', axis=alt.Axis(format='%'), title='Percent of Total')
+
+  # Plot a bar chart with total orders by the given column.
+  chart = alt.Chart(data).transform_joinaggregate(
+      TotalOrder='sum(Total)',
+  ).transform_calculate(
+      PercentOfTotal="datum.Total / datum.TotalOrder"
+  ).mark_bar(tooltip=True).encode(
+      x=x_axis,
+      y=y_axis,
+      color=condition
+  ).add_params(
+      selection,
+      legend['selection']
+  ).transform_filter(
+      alt.FieldLTPredicate("datum.TotalOrder", 10000)
+  ).properties(
+      title={
+        'text': title,
+        'subtitle': subtitle
+      }
+  )
+
+  # Add a text to show the group total.
+  text = chart.mark_text(
+      align='right',
+      baseline='middle',
+      dx=-10,
+      fill='white'
+  ).encode(
+      text='Total'
+  )
+
+  # Configure the bar chart with standard look and feel.
+  # plot = configure_styles((chart + text), 500, 600, title=title, subtitle=subtitle)
+  plot = chart
+
+  return {'plot': plot, 'selection': selection, 'condition': condition}
